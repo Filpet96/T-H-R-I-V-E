@@ -1,0 +1,401 @@
+
+
+
+html, body {
+  margin:0;
+  padding: 0;
+}
+    body {
+        background-color: white;
+    }
+#change h1 {
+    font-size: 48px;
+    font-style: bold;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-family: 'Muli', sans-serif;
+    color: #FAFAFB;
+    z-index: 10;
+
+  }
+  .change1 {
+    letter-spacing: 2px;
+    z-index: 10;
+
+  }
+#change {
+  margin-top: 63px;
+  position: relative;
+  z-index: 10;
+}
+h2 {
+  font-family: 'Muli', sans-serif;
+  font-style: bold;
+  line-height: 0px;
+  text-align: center;
+  font-size: 22px;
+  color: #FAFAFB;
+}
+#counscious, p {
+  font-family: 'Muli', sans-serif;
+  font-style: bold;
+  line-height: 0px;
+  text-align: center;
+  font-size: 7px;
+  letter-spacing: 16.67%;
+  color: #FAFAFB;
+  z-index: 10;
+
+}
+#counscious {
+  border: 1px solid #F0F0F0;
+  display: block;
+  width: 158px;
+  height: 50px;
+  margin: 0 auto;
+  z-index: 10;
+  position: relative;
+  margin-top: 87px;
+}
+#container {
+  display: block;
+  max-width: 375px;
+  height: auto;
+}
+@-webkit-keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+            40% {-webkit-transform: translateY(28px);}
+
+         }
+
+         @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            40% {transform: translateY(28px);}
+
+         }
+.transparentoverlay {
+  position: absolute;
+  z-index: 2;
+  top: -45px;
+  -webkit-animation-duration: 3.6s;
+            animation-duration: 3.6s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+}
+.bounce {
+            -webkit-animation-name: bounce;
+            animation-name: bounce;
+         }
+.triangle1 {
+  position: absolute;
+  top: 0;
+  margin-top: 150px;
+
+}
+.dark {
+z-index: 0;
+}
+.light {
+  right: 0;
+}
+.modelphoto {
+width: 100%;
+height: 550px;
+left: 0px;
+background-image: url(../Images/Model.png);
+background-repeat: no-repeat;
+z-index: 29;
+background-position: center;
+background-size: cover;
+max-width: 375px;
+margin-bottom: -60px;
+}
+.imagetext h1 {
+  position: absolute;
+  top: 0;
+  margin-top: 555px;
+  color: #3D2D38;
+  line-height: 21px;
+  font-size: 17px;
+  text-align: left;
+  width: 312px;
+  height: 63px;
+  margin-left: 60px;
+  font-family: 'Muli', sans-serif;
+}
+.smalldarktriangle {
+  position: absolute;
+  z-index: 30;
+  margin-top: -0.6px;
+}
+.bottomdarksmalltriangle {
+  position: absolute;
+  bottom: 0;
+}
+.bottombar {
+  position: absolute;
+  bottom: 0;
+}
+.modelgradient {
+  position: absolute;
+}
+.forest {
+  position: absolute;
+  width: 100%;
+  height: 492px;
+  top: 0;
+  background-image: url(../Images/Forest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 375px;
+}
+.brownbackground {
+  position: absolute;
+  margin-top: 880.32px;
+  top: 0;
+  width: 100%;
+}
+.greytriangle {
+  position: absolute;
+  top: 0;
+  margin-top: 1242px;
+  z-index: 11;
+}
+.thrivelogo {
+position: relative;
+top: 0;
+padding-top: 50px;
+
+z-index: 250;
+}
+.thrivetext {
+
+  margin-top: 16.5px;
+margin-left: 97px;
+
+}
+.thrivelogo1 {
+margin-left: 92px;
+
+
+
+}
+#section1 {
+
+}
+.quote {
+
+}
+.quote h1 {
+position: absolute;
+color: #E6E7E4;
+z-index: 35;
+text-align: left;
+font-size: 25px;
+line-height: 31px;
+top: 0;
+margin-top: 209px;
+margin-left: 40px;
+font-family: 'Muli', sans-serif;
+height: 63px;
+width: 278px;
+}
+.cycletext h1 {
+  top: 0;
+  position: absolute;
+  color: #3D2D38;
+  font-size: 19px;
+  font-weight: bold;
+  margin-left: 128px;
+  width: 232px;
+  height: 24px;
+  margin-top: 626px;
+  font-family: 'Muli', sans-serif;
+}
+.recyclingmachine1 {
+  position: absolute;
+  top: 0;
+  margin-top: 1617px;
+  margin-left: 18px;
+  z-index: 12;
+}
+.Recyclingmachine h1 {
+  position: absolute;
+  top: 0;
+  margin-top: 1827px;
+  left: 0;
+  margin-left: 117px;
+  color: white;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  font-style: bold;
+  line-height: 20px;
+  text-align: left;
+  display: block;
+  margin-right: 23px;
+  letter-spacing: 0;
+  z-index: 12;
+}
+.plasticbottle {
+  position: absolute;
+  top: 0;
+margin-top: 1899px;
+margin-left: 20px;
+z-index: 12;
+}
+.plastic {
+  position: absolute;
+  top: 0;
+  margin-top: 1923px;
+  margin-left: 98px;
+z-index: 12;
+}
+.sewingthread {
+  position: absolute;
+  top: 0;
+  margin-top: 1912px;
+  margin-left: 188px;
+  z-index: 12;
+}
+.section {
+  height: 100vh;
+}
+.line {
+  /* Line */
+
+position: absolute;
+width: 167.38px;
+height: 0px;
+margin-left: 113.62px;
+top: 0;
+margin-top: 1334px;
+
+border: 3px solid #000000;
+
+}
+.p03brown {
+  position: absolute;
+  top: 0;
+
+}
+.p03darktriangle {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+
+}
+.p03darkbottom {
+  position: absolute;
+  top: 0;
+  margin-top: 506px;
+  z-index: 1;
+}
+.p03bluebackground {
+  position: absolute;
+  top: 0;
+  margin-top: 220px;
+  left: 182px;
+  z-index: 0;
+}
+.p03thrivelogo {
+  position: absolute;
+  top: 0;
+  left: 11px;
+  margin-top: 13px;
+  z-index: 2;
+}
+.p03logotext {
+  position: absolute;
+  top: 0;
+  margin-top: 108px;
+  left: 13px;
+  z-index: 2;
+}
+.PLANET h1 {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 22px;
+  top: 0;
+  margin-top: 168px;
+  left: 20px;
+  height: 28px;
+  width: 126px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  z-index: 2;
+}
+.FRIENDLY h1 {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 22px;
+  top: 0;
+  margin-top: 206px;
+  left: 26px;
+  height: 28px;
+  width: 161px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  z-index: 2;
+}
+.MATERIALS h1 {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 22px;
+  top: 0;
+  margin-top: 244px;
+  left: 40px;
+  height: 28px;
+  width: 185px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  z-index: 2;
+}
+.p03polyester {
+  position: absolute;
+  top: 0;
+  margin-top: 309px;
+  margin-left: 79px;
+  width: 212px;
+  height: 43px;
+  z-index: 2;
+}
+.p03tencel {
+  position: absolute;
+  top: 0;
+  margin-top: 366px;
+  margin-left: 133px;
+  width: 191px;
+  height: 43px;
+  z-index: 2;
+}
+.p03cotton {
+  position: absolute;
+  top: 0;
+  margin-top: 429px;
+  margin-left: 177px;
+  width: 186px;
+  height: 43px;
+  z-index: 2;
+}
+.p03bottomdiffcol {
+  position: absolute;
+  top: 0;
+  margin-top: 580px;
+}
+.p03maskin {
+  position: absolute;
+  top: 0;
+  margin-top: 40px;
+  margin-left: 188px;
+}
+.p03tyg {
+  position: absolute;
+  top: 0;
+  margin-top: 492px;
+  margin-left: 23px;
+  z-index: 2;
+}

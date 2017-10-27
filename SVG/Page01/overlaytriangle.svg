@@ -1,0 +1,16 @@
+<svg width="375" height="486" viewBox="0 0 375 486" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>DEN H&#195;&#132;R</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-224 503)">
+<g id="DEN H&#195;&#132;R">
+<use xlink:href="#path0_fill" transform="translate(224 -503)" fill="url(#paint0_linear)" fill-opacity="0.25"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.29621e-14 485.121 -375 2.97051e-14 375 -2.97051e-14)">
+<stop offset="0" stop-color="#E7E7E7"/>
+<stop offset="1" stop-color="#E7E7E7" stop-opacity="0.7"/>
+</linearGradient>
+<path id="path0_fill" d="M 375 0L 0 0L 0 173.056L 187.892 485.121L 374.89 173.056L 374.89 37L 375 37L 375 0Z"/>
+</defs>
+</svg>

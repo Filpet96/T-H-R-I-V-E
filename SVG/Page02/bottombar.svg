@@ -1,0 +1,12 @@
+<svg width="375" height="120" viewBox="0 0 375 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Bottom</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(11 -369)">
+<g id="Bottom">
+<use xlink:href="#path0_fill" transform="translate(-11 369)" fill="#C6C1BB"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 71.7703 120L 375 120L 375 0L 0 0L 71.7703 120Z"/>
+</defs>
+</svg>
