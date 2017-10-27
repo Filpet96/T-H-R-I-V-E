@@ -399,3 +399,8 @@ border: 3px solid #000000;
   margin-left: 23px;
   z-index: 2;
 }
+
+/*Albert har lagt till*/
+.desktop {
+  display: none;
+}
