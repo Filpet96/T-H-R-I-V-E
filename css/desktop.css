@@ -7,15 +7,124 @@
 .iphone {
   display: none;
 }
+html, body {
+  margin:0;
+  padding: 0;
+}
+    body {
+        background-color: white;
+    }
+.forest {
+  top: 0;
+  position: absolute;
+  background-image: url(../Images/Forest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+}
+.dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.light {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.transparentoverlay {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 34px;
+  -webkit-animation-duration: 3.6s;
+            animation-duration: 3.6s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+}
+.bounce {
+            -webkit-animation-name: bounce;
+            animation-name: bounce;
+         }
 
-body {
-  background-color: black;
+         #change h1 {
+             font-size: 92px;
+             font-style: bold;
+             text-align: center;
+             line-height: 25px;
+             letter-spacing: 4.4px;
+             font-family: 'Muli', sans-serif;
+             color: #FAFAFB;
+             z-index: 10;
+
+           }
+           .change1 {
+             display: none;
+           }
+           .change2 {
+             letter-spacing: 4.4px;
+             z-index: 10;
+              font-size: 120px !important;
+
+           }
+         #change {
+           margin-top: 130px;
+           position: relative;
+           z-index: 10;
+         }
+
+         #counscious p {
+           font-family: 'Muli', sans-serif;
+           font-style: bold;
+           line-height: 0px;
+           text-align: center;
+           font-size: 13px;
+           letter-spacing: 7.69px;
+           color: #FAFAFB;
+           z-index: 10;
+         }
+         #counscious h2 {
+           font-family: 'Muli', sans-serif;
+           font-style: bold;
+           line-height: 0px;
+           text-align: center;
+           font-size: 40px;
+           letter-spacing: 6.29px;
+           color: #FAFAFB;
+           z-index: 10;
+         }
+         #counscious {
+           background: rgba(216, 216, 216, 0.0001);
+border: 3px solid #FFFFFF;
+           display: block;
+           width: 298px;
+           height: 93px;
+           margin: 0 auto;
+           z-index: 10;
+           position: relative;
+           top: 41px;
+         }
+/*body {
+
   margin: 0;
 }
 #container {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .forest {
   position: absolute;
@@ -29,11 +138,6 @@ body {
   max-width: 100%;
 }
 
-.dark {
-  position: absolute;
-  top: 0;
-  z-index: 0;
-}
 
 #change {
   margin-top: 63px;
@@ -73,7 +177,7 @@ body {
   color: #FAFAFB;
   z-index: 10;
 
-}
+}*/
 
 
 
