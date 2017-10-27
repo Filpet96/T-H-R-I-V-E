@@ -1,20 +1,82 @@
-body {
-  margin: 0;
+@media screen and (min-width: 768px) {
 
+.desktop {
+  display: initial;
 }
 
+.iphone {
+  display: none;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+#container {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .forest {
-  background-image: url(../Images/Forest.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   position: absolute;
   width: 100%;
   height: 100vh;
   top: 0;
+  background-image: url(../Images/Forest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
 }
+
 .dark {
   position: absolute;
   top: 0;
-  z-index: 1;
+  z-index: 0;
 }
+
+#change {
+  margin-top: 63px;
+  position: relative;
+  z-index: 10;
+}
+
+#change h1 {
+  font-size: 92px;
+  font-style: bold;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 2px;
+  font-family: 'Muli', sans-serif;
+  color: #FAFAFB;
+  z-index: 10;
+}
+
+#counscious {
+  border: 1px solid #F0F0F0;
+  display: block;
+  width: 158px;
+  height: 50px;
+  margin: 0 auto;
+  z-index: 10;
+  position: relative;
+  margin-top: 87px;
+}
+
+#counscious, p {
+  font-family: 'Muli', sans-serif;
+  font-style: bold;
+  line-height: 0px;
+  text-align: center;
+  font-size: 7px;
+  letter-spacing: 16.67%;
+  color: #FAFAFB;
+  z-index: 10;
+
+}
+
+
+
+
+
+}/*End of the media query scope for desktop*/
