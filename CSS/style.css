@@ -1,5 +1,6 @@
-
-
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 867px) {
 
 html, body {
   margin:0;
@@ -403,4 +404,6 @@ border: 3px solid #000000;
 /*Albert har lagt till*/
 .desktop {
   display: none;
+}
+
 }
