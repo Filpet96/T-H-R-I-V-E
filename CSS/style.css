@@ -8,6 +8,7 @@ html, body {
 }
     body {
         background-color: white;
+        font-family: 'Muli', sans-serif;
     }
 #change h1 {
     font-size: 12.8vw;
@@ -28,21 +29,23 @@ html, body {
   position: relative;
   z-index: 10;
 }
-h2 {
+#counscious h2 {
   font-family: 'Muli', sans-serif;
-  font-style: bold;
+
   line-height: 0px;
   text-align: center;
-  font-size: 5.866666666666666vw;
+  font-size: 6.133333333333334vw;
   color: #FAFAFB;
+  font-weight: 300;
+  letter-spacing: 0.5333333333333333vw;
 }
 #counscious, p {
   font-family: 'Muli', sans-serif;
-  font-style: bold;
+
   line-height: 0px;
   text-align: center;
   font-size: 1.8666666666666667vw;
-  letter-spacing: 16.67%;
+  letter-spacing: 0.80vw;
   color: #FAFAFB;
   z-index: 10;
 }
@@ -99,7 +102,7 @@ z-index: 0;
 width: 100%;
 height: 146.66666666666666vw;
 left: 0;
-background-image: url(../Images/Model.png);
+background-image: url(../Images/Modeliphone_optim.jpg);
 background-repeat: no-repeat;
 z-index: 29;
 background-position: center;
@@ -111,7 +114,7 @@ margin-bottom: -16vw;
   position: absolute;
   top: 0;
   margin-top: 148vw;
-  color: #3D2D38;
+  color: #121212;
   line-height: 5.6vw;
   font-size: 4.533333333333333vw;
   text-align: left;
@@ -124,6 +127,29 @@ margin-bottom: -16vw;
   position: absolute;
   z-index: 30;
   margin-top: -0.13333vw;
+}
+.planetiphone {
+  position: absolute;
+  top: 286px;
+  left: 13.333333333333334vw;
+}
+.peopleiphone {
+  position: absolute;
+  top: 372px;
+  left: 13.333333333333334vw;
+}
+.animalsiphone {
+  position: absolute;
+  top: 463px;
+  left: 11.733333333333333vw
+}
+.gradient02 {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 82.45877061469265vh;
+  background: linear-gradient(180deg, #F4EAE0 2.97%, rgba(216, 216, 216, 0.0001) 41.63%);
 }
 .bottomdarksmalltriangle {
   position: absolute;
@@ -141,7 +167,7 @@ margin-bottom: -16vw;
   width: 100vw;
   height: 131.2vw;
   top: 0;
-  background-image: url(../Images/Forest.jpg);
+  background-image: url(../Images/forest_optim.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -153,24 +179,31 @@ margin-bottom: -16vw;
   top: 0;
   width: 100vw;
 }
+.topleftriangle{
+  position: absolute;
+  top: -1.2px;
+  left: 0;
+  z-index: 999;
+}
 .quote h1 {
 position: absolute;
 color: #E6E7E4;
 z-index: 35;
+font-weight: bold;
 text-align: left;
 font-size: 25px;
-line-height: 31px;
-top: 0;
-margin-top: 209px;
-margin-left: 40px;
+line-height: 0;
+left: 62px;
+top: 209px;
 font-family: 'Muli', sans-serif;
 height: 63px;
 width: 278px;
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .cycletext h1 {
   top: 0;
   position: absolute;
-  color: #3D2D38;
+  color: #121212;
   font-size: 19px;
   font-weight: bold;
   margin-left: 128px;
@@ -274,86 +307,113 @@ border: 3px solid #000000;
 }
 .PLANET h1 {
   position: absolute;
-  color: #FFFFFF;
-  font-size: 22px;
-  top: 0;
-  margin-top: 168px;
-  left: 20px;
-  height: 28px;
-  width: 126px;
+  color: #3D2D38;
+  font-size: 5.866666666666666vw;
+  top: 17.866666666666667vw;
+  left: 37.06666666666667vw;
   font-family: 'Muli', sans-serif;
   font-weight: bold;
   z-index: 2;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .FRIENDLY h1 {
   position: absolute;
-  color: #FFFFFF;
-  font-size: 22px;
-  top: 0;
-  margin-top: 206px;
-  left: 26px;
-  height: 28px;
-  width: 161px;
+  color: #3D2D38;
+  font-size: 5.866666666666666vw;
+  top: 28vw;
+  left: 42.666666666666664vw;
   font-family: 'Muli', sans-serif;
   font-weight: bold;
   z-index: 2;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .MATERIALS h1 {
   position: absolute;
-  color: #FFFFFF;
-  font-size: 22px;
-  top: 0;
-  margin-top: 244px;
-  left: 40px;
-  height: 28px;
-  width: 185px;
+  color: #3D2D38;
+  font-size: 5.866666666666666vw;
+  top: 38.13333333333333vw;
+  left: 48.53333333333333vw;
   font-family: 'Muli', sans-serif;
   font-weight: bold;
   z-index: 2;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
-.p03polyester {
+.organiccotton03 h1{
   position: absolute;
-  top: 0;
-  margin-top: 309px;
-  margin-left: 79px;
-  width: 212px;
-  height: 43px;
+  color: #FFFFFF;
+  left: 28px;
+top: 264px;
+font-size: 15px;
+z-index: 2;
+font-weight: 200;
+line-height: 0;
+}
+.organiccotton03 img {
+position: absolute;
+z-index: 2;
+left: 173px;
+top: 245px;
+mix-blend-mode: normal;
+opacity: 0.9;
+}
+.Lenzingmodal03 h1 {
+  position: absolute;
+  color: #FFFFFF;
+  left: 79.5px;
+top: 327px;
+font-size: 15px;
+z-index: 2;
+font-weight: 200;
+line-height: 0;
+}
+.Lenzingmodal03 img {
+  position: absolute;
   z-index: 2;
+  left: 211px;
+top: 308px;
+  mix-blend-mode: normal;
+  opacity: 0.9;
 }
-.p03tencel {
+.Tencel03 h1 {
   position: absolute;
-  top: 0;
-  margin-top: 366px;
-  margin-left: 133px;
-  width: 191px;
-  height: 43px;
+  color: #FFFFFF;
+  left: 95px;
+top: 387px;
+font-size: 15px;
+z-index: 2;
+font-weight: 200;
+line-height: 0;
+}
+.Tencel03 img {
+  position: absolute;
   z-index: 2;
+  left: 249px;
+top: 371px;
+  mix-blend-mode: normal;
+  opacity: 0.9;
 }
-.p03cotton {
+.Recyclespolyester03 h1 {
   position: absolute;
-  top: 0;
-  margin-top: 429px;
-  margin-left: 177px;
-  width: 186px;
-  height: 43px;
+  color: #FFFFFF;
+  left: 112px;
+top: 450px;
+font-size: 15px;
+z-index: 2;
+font-weight: 200;
+line-height: 0;
+}
+.Recyclespolyester03 img {
+  position: absolute;
   z-index: 2;
-}
-.p03bottomdiffcol {
-  position: absolute;
-  top: 0;
-  margin-top: 580px;
-}
-.p03maskin {
-  position: absolute;
-  top: 0;
-  margin-top: 40px;
-  margin-left: 188px;
+  left: 286px;
+top: 434px;
+  mix-blend-mode: normal;
+  opacity: 0.9;
 }
 .p03tyg {
   position: absolute;
-  top: 0;
-  margin-top: 492px;
-  margin-left: 23px;
+  left: 10px;
+top: 510px;
   z-index: 2;
 }
 /*Albert har lagt till*/
@@ -374,39 +434,40 @@ border: 3px solid #000000;
   position: absolute;
 }
 .textborder {
-  top: 0;
+  top: 122.66666666666667vw;
   position: absolute;
-  margin-top: 520px;
   z-index: 10;
   color: orange;
 }
 .fashion {
   color: #F5A623;
   position: absolute;
-  left: 40px;
-  top: 524px;
+  left: 14.666666666666666vw;
+  top: 122.66666666666667vw;
   font-family: 'Muli', sans-serif;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 6.666666666666667vw;
   z-index: 11;
+line-height: 15px;
 }
 .textblock{
   position: absolute;
-  top: 561px;
+  top: 132.26666666666668vw;
   z-index: 1;
 }
 .blocktext {
-  color: black;
+  color: #121212;
   position: absolute;
-  left: 12px;
-  top: 570px;
+  left: 12.533333333333333vw;
+  top: 138.93333333333334vw;
   font-family: 'Muli', sans-serif;
   font-size: 19px;
   z-index: 2;
-  width: 288px;
-  height: 48px;
+  width: 63.2vw;
+  height: 19.2vw;
   line-height: normal;
   text-align: left;
+  margin: 0;
 }
 .rectangletop {
   position: absolute;
@@ -421,5 +482,115 @@ border: 3px solid #000000;
   top: 103px;
   height: 564px;
   width: 378px;
+}
+.fairtrade {
+  position: absolute;
+  z-index: 999;
+  left: 41.06666666666667vw;
+top: 8vw;
+
+}
+.toxicfree{
+  position: absolute;
+  z-index: 999;
+  left: 30.666666666666668vw;
+  top: 27.733333333333334vw;
+}
+.quality{
+  position: absolute;
+  z-index: 999;
+  left: 22.933333333333334vw;
+  top: 48vw;
+}
+.organic {
+  position: absolute;
+  z-index: 999;
+  left: 9.333333333333334vw;
+  top: 67.73333333333333vw;
+}
+.vegan {
+  position: absolute;
+  z-index: 999;
+  left: 1.0666666666666667vw;
+  top: 88vw;
+}
+.bottomrectangle {
+  position: absolute;
+  left: 0;
+  top: 138.4vw;
+
+}
+.toptriangle05 {
+  position: absolute;
+  top: -0.6px;
+  z-index: 4;
+}
+.bottomtriangle05 {
+  position: absolute;
+  bottom: 0;
+  right: -1px;
+  z-index: 2;
+}
+.bottombar05 {
+  position: absolute;
+  bottom: -1px;
+  z-index: 2;
+}
+.modelguy05 {
+  position: absolute;
+  width: 100%;
+height: 511px;
+top: 98px;
+z-index: 0;
+}
+.gradient05 {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  background: linear-gradient(180deg, #F8ECE2 0%, rgba(227, 220, 219, 0.0001) 33.79%);
+  z-index: 3;
+  top: 96px;
+}
+#section4 {
+  background-color: #F8ECE2;
+}
+.logo05 {
+  position: absolute;
+  left: 24px;
+top: 141px;
+}
+.visitstore {
+  position: absolute;
+  left: 67px;
+top: 466px;
+}
+.THRIVESTORE h4 {
+  position: absolute;
+  left: 109px;
+top: 633px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+opacity: 0.8;
+font-size: 19px;
+z-index: 999;
+margin: 0;
+}
+.Youtube {
+position: absolute;
+left: 25px;
+top: 582px;
+z-index: 999;
+}
+.Instagram {
+position: absolute;
+left: 109px;
+top: 582px;
+z-index: 999;
+}
+.Facebook {
+position: absolute;
+left: 193px;
+top: 582px;
+z-index: 999;
 }
 }
