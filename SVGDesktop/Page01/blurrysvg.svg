@@ -1,0 +1,26 @@
+<svg width="304" height="99" viewBox="0 0 304 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Rectangle</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2336 -432)">
+<g id="Rectangle" filter="url(#filter0_b)">
+<use xlink:href="#path0_fill" transform="translate(2339 435)" fill="#D8D8D8" fill-opacity="0.01"/>
+<mask id="mask0_outline_out">
+<rect id="mask0_outline_inv" fill="white" x="-3" y="-3" width="304" height="99" transform="translate(2339 435)"/>
+<use xlink:href="#path0_fill" fill="black" transform="translate(2339 435)"/>
+</mask>
+<g mask="url(#mask0_outline_out)">
+<use xlink:href="#path1_stroke_2x" transform="translate(2339 435)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_b" filterUnits="userSpaceOnUse" x="2308" y="404" width="360" height="155" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="13.5914"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+</filter>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 298 0L 298 93L 0 93L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -3L -3 -3L -3 0L 0 0ZM 298 0L 301 0L 301 -3L 298 -3L 298 0ZM 298 93L 298 96L 301 96L 301 93L 298 93ZM 0 93L -3 93L -3 96L 0 96L 0 93ZM 0 3L 298 3L 298 -3L 0 -3L 0 3ZM 295 0L 295 93L 301 93L 301 0L 295 0ZM 298 90L 0 90L 0 96L 298 96L 298 90ZM 3 93L 3 0L -3 0L -3 93L 3 93Z"/>
+</defs>
+</svg>
