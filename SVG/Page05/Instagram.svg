@@ -1,0 +1,43 @@
+<svg width="44" height="44" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Instagram</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-327 -1804)">
+<g id="Instagram">
+<g id="Oval 2 Copy 8">
+<use xlink:href="#path0_fill" transform="translate(327 1804)" fill="#3D2D38"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(327 1804)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(327 1804)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="insta">
+<g id="Layer_2">
+<g id="Rectangle-path">
+<use xlink:href="#path2_fill" transform="translate(334.586 1811.59)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Layer_4">
+<g id="Oval">
+<use xlink:href="#path3_fill" transform="translate(343.639 1820.56)" fill="#3D2D39"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path4_fill" transform="translate(338.455 1823.66)" fill="#3D2D39"/>
+</g>
+<g id="Rectangle-path">
+<use xlink:href="#path5_fill" transform="translate(355.069 1815.38)" fill="#3D2D39"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 22 43.2414C 34.1503 43.2414 44 33.5615 44 21.6207C 44 9.67991 34.1503 0 22 0C 9.84974 0 0 9.67991 0 21.6207C 0 33.5615 9.84974 43.2414 22 43.2414Z"/>
+<path id="path1_stroke_2x" d="M 22 46.2414C 35.7577 46.2414 47 35.2673 47 21.6207L 41 21.6207C 41 31.8556 32.5428 40.2414 22 40.2414L 22 46.2414ZM 47 21.6207C 47 7.97408 35.7577 -3 22 -3L 22 3C 32.5428 3 41 11.3857 41 21.6207L 47 21.6207ZM 22 -3C 8.24228 -3 -3 7.97408 -3 21.6207L 3 21.6207C 3 11.3857 11.4572 3 22 3L 22 -3ZM -3 21.6207C -3 35.2673 8.24228 46.2414 22 46.2414L 22 40.2414C 11.4572 40.2414 3 31.8556 3 21.6207L -3 21.6207Z"/>
+<path id="path2_fill" d="M 0 12C 0 5.37258 5.37258 0 12 0L 16.8276 0C 23.455 0 28.8276 5.37258 28.8276 12L 28.8276 16.8276C 28.8276 23.455 23.455 28.8276 16.8276 28.8276L 12 28.8276C 5.37258 28.8276 0 23.455 0 16.8276L 0 12Z"/>
+<path id="path3_fill" d="M 5.68966 11.6471C 8.83196 11.6471 11.3793 9.03978 11.3793 5.82353C 11.3793 2.60728 8.83196 0 5.68966 0C 2.54735 0 0 2.60728 0 5.82353C 0 9.03978 2.54735 11.6471 5.68966 11.6471Z"/>
+<path id="path4_fill" d="M 0 7.35621e-15L 0 13.7176L 21.7471 13.7176L 21.7471 7.35621e-15L 19.5977 0.647059C 19.5977 0.647059 21.8736 9.96471 11.7586 11.7765C 3.41379 11.7765 1.13793 4.78824 2.4023 0.647059C 1.62999 0.33289 0.823353 0.115621 0 0L 0 7.35621e-15Z"/>
+<path id="path5_fill" d="M 0 2.52874C 0 1.13215 1.13215 0 2.52874 0C 3.92532 0 5.05747 1.13215 5.05747 2.52874L 5.05747 2.90656C 5.05747 4.30314 3.92532 5.43529 2.52874 5.43529C 1.13215 5.43529 0 4.30314 0 2.90656L 0 2.52874Z"/>
+</defs>
+</svg>
