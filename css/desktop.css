@@ -1,7 +1,7 @@
 @media only screen
 and (min-device-width : 868px)
 and (max-device-width : 3500px) {
-* {
+:root {
   font-family: 'Muli', sans-serif;
   margin: 0;
 }
