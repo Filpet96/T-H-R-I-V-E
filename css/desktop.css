@@ -1,20 +1,24 @@
 @media only screen
 and (min-device-width : 868px)
 and (max-device-width : 3500px) {
-
+:root {
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+}
 
 .desktop {
   display: initial;
 }
 
-
 .iphone {
   display: none;
 }
+
 html, body {
   margin:0;
   padding: 0;
 }
+
     body {
         background-color: white;
         height: 100%;
@@ -23,14 +27,17 @@ html, body {
       width: 100%;
       height: 100%;
     }
+
 #wrapper {
   width: 100%;
   height: 100%;
 }
+
 #container {
   width: 100%;
 height: 100%;
 }
+
 .responstri {
   height: 100%;
 
@@ -39,7 +46,7 @@ height: 100%;
 .forest {
   top: 0;
   position: absolute;
-  background-image: url(../Images/Forest.jpg);
+  background-image: url(../Images/forest_optim.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -57,8 +64,8 @@ height: 100%;
   z-index: 1;
   border-bottom: 100vh solid #3D2D39;
   border-right: 50vw solid transparent;
-
 }
+
 .light {
   position: fixed;
   top: 0;
@@ -66,7 +73,7 @@ height: 100%;
   width: 0px;
   height: 0px;
   z-index: 1;
-  border-bottom: 100vh solid #DED2C6  ;
+  border-bottom: 100vh solid #DED2C6;
   border-left: 50vw solid transparent;
 
 }
@@ -246,4 +253,176 @@ position: relative;
   width:auto;
   bottom: 0;
 }
+}
+
+.triangle2 {
+  position: absolute;
+  top: 0;
+}
+
+.dark2 {
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+  border-top: 100vh solid #3D2D39;
+  border-right: 50vw solid transparent;
+}
+
+.model-photo-p2 {
+  position: absolute;
+  background-image: url(../Images/model_optim.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.beige-fade-top {
+  position: absolute;
+  background: linear-gradient(rgb(222, 210, 197), rgba(0, 0, 0, 0));
+  width: 100%;
+  height: 20vh;
+  top: 0;
+}
+
+.beige-fade-bottom {
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgb(222, 210, 197));
+  width: 100%;
+  height: 20vh;
+  bottom: 0;
+}
+
+.quote-desktop {
+  position: absolute;
+  top: 8.5vh;
+  left: 15.5vw;
+  color: white;
+  z-index: 10;
+}
+
+.quote-desktop h1 {
+  font-size: calc(1.95vh + 1.95vw);
+  font-weight: bold;
+  letter-spacing: 0.3vw;
+  margin: 0;
+}
+
+.lighter {
+  font-weight: 300;
+}
+
+.small-solid-circle {
+  position: absolute;
+  background-color: #3D2D39;
+  color: white;
+  z-index: 10;
+  width: calc(2.8vh + 2.8vw);
+  height: calc(2.8vh + 2.8vw);
+  border-radius: 100px;
+  border: 2px white solid;
+}
+
+.people {
+  top: 26vh;
+  left: 32.7vw;
+}
+
+.animals {
+  top: 38.5vh;
+  left: 26.3vw;
+}
+
+.environment {
+  top: 51.2vh;
+  left: 20.3vw;
+
+}
+
+.people h2, .animals h2, .environment  h2 {
+  position: relative;
+  top: calc(-0.7vh + -0.7vw);
+  left: calc(3.8vh + 3.8vw);
+  font-size: calc(1.45vh + 1.45vw);
+}
+
+.info-idag {
+  position: absolute;
+  top: 71vh;
+  left: 16vw;
+  color: white;
+  z-index: 10;
+  font-weight: 300;
+}
+
+.info-idag h1 {
+  font-size: calc(1.15vh + 1.15vw);
+  letter-spacing: 0.33vw;
+  margin: 0;
+}
+
+.beige-background-p3 {
+  position: absolute;
+  background-color: #DED2C6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+
+.model-photo-p4 {
+  position: absolute;
+  background-image: url(../Images/model2_optim.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.triangle3 {
+  position: absolute;
+  top: 0;
+}
+
+.dark3 {
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+  border-bottom: 72.2vh solid #3D2D39;
+  border-right: 50vw solid transparent;
+}
+
+.dark-box-bottom {
+  position: absolute;
+  background: #3D2D39;
+  width: 100%;
+  height: 27.8vh;
+  bottom: 0;
+}
+
+
+.triangle4 {
+  position: absolute;
+  top: 0;
+}
+
+.dark4 {
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+  border-top: 100vh solid #3D2D39;
+  border-right: 50vw solid transparent;
 }
