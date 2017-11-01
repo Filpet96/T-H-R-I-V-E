@@ -127,7 +127,22 @@
         <img class="p03thrivelogo iphone" src="./SVG/Page03/THRIVELOGO.svg" alt="">
         <img class="p03logotext iphone" src="./SVG/Page03/THRIVETEXT.svg" alt="">
         <img class="p03darkbottom iphone" src="./SVG/Page03/Darkbottom.svg" alt="">
-        <img class="p03bluebackground iphone" src="./SVG/Page03/bluebackground.svg" alt="">
+        <!-- SLIDESHOW -->
+        <div id="slideshow">
+          <div>
+           <img src="./Images/tree.jpg">
+           </div>
+           <div>
+           <img src="./Images/wood.jpg">
+           </div>
+           <div>
+          <img src="./Images/plastic.jpg">
+           </div>
+           <div>
+          <img src="./Images/cotton.jpg">
+           </div>
+        </div>
+        <!-- SLIDESHOW END -->
         <img class="p03bottomdiffcol iphone" src="./SVG/Page03/bottomdiffcol.svg" alt="">
         <div class="PLANET iphone">
           <h1>P L A N E T</h1>
@@ -212,6 +227,18 @@
 
     $('#wrapper').fullpage();
   });
+</script>
+<script>
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+$('#slideshow > div:first')
+  .fadeOut(3000)
+  .next()
+  .fadeIn(3000)
+  .end()
+  .appendTo('#slideshow');
+}, 4000);
 </script>
 
 </html>
