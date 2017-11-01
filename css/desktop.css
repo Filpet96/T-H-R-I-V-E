@@ -1,7 +1,7 @@
 @media only screen
 and (min-device-width : 868px)
 and (max-device-width : 3500px) {
-:root {
+* {
   font-family: 'Muli', sans-serif;
   margin: 0;
 }
@@ -300,7 +300,6 @@ border: 3px solid #FFFFFF;
 .environment {
   top: 51.2vh;
   left: 20.3vw;
-
 }
 
 .people h2, .animals h2, .environment  h2 {
@@ -371,7 +370,6 @@ border: 3px solid #FFFFFF;
   bottom: 0;
 }
 
-
 .triangle4 {
   position: absolute;
   top: 0;
@@ -385,4 +383,35 @@ border: 3px solid #FFFFFF;
   z-index: 1;
   border-top: 100vh solid #3D2D39;
   border-right: 50vw solid transparent;
+}
+
+.p03tyg-desktop {
+  position: absolute;
+  width: 25vw;
+  height: 24vh;
+  top: 42vh;
+  left: 5.4vw;
+  z-index: 2;
+}
+
+.polyester {
+  top: 68.5vh;
+  left: 59.5vw;
+}
+
+.tencel {
+  top: 68.5vh;
+  left: 72vw;
+}
+
+.cotton {
+  top: 68.5vh;
+  left: 80vw;
+
+}
+.polyester h2, .tencel h2, .environment  h2 {
+  position: relative;
+  top: calc(-0.7vh + -0.7vw);
+  left: calc(3.8vh + 3.8vw);
+  font-size: calc(1.45vh + 1.45vw);
 }
