@@ -309,3 +309,18 @@ border: 3px solid #FFFFFF;
   left: calc(3.8vh + 3.8vw);
   font-size: calc(1.45vh + 1.45vw);
 }
+
+.info-idag {
+  position: absolute;
+  top: 71vh;
+  left: 16vw;
+  color: white;
+  z-index: 10;
+  font-weight: 300;
+}
+
+.info-idag h1 {
+  font-size: calc(1.15vh + 1.15vw);
+  letter-spacing: 0.33vw;
+  margin: 0;
+}
