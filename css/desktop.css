@@ -324,3 +324,65 @@ border: 3px solid #FFFFFF;
   letter-spacing: 0.33vw;
   margin: 0;
 }
+
+.beige-background-p3 {
+  position: absolute;
+  background-color: #DED2C6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+
+.model-photo-p4 {
+  position: absolute;
+  background-image: url(../Images/model2_optim.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.triangle3 {
+  position: absolute;
+  top: 0;
+}
+
+.dark3 {
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+  border-bottom: 72.2vh solid #3D2D39;
+  border-right: 50vw solid transparent;
+}
+
+.dark-box-bottom {
+  position: absolute;
+  background: #3D2D39;
+  width: 100%;
+  height: 27.8vh;
+  bottom: 0;
+}
+
+
+.triangle4 {
+  position: absolute;
+  top: 0;
+}
+
+.dark4 {
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+  border-top: 100vh solid #3D2D39;
+  border-right: 50vw solid transparent;
+}
