@@ -1,0 +1,12 @@
+<svg width="258" height="83" viewBox="0 0 258 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Textruta</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-206 -587)">
+<g id="Textruta">
+<use xlink:href="#path0_fill" transform="translate(206 587)" fill="#F5FAFE" fill-opacity="0.696473"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 3C 0 1.34315 1.34315 0 3 0L 255 0C 256.657 0 258 1.34315 258 3L 258 80C 258 81.6569 256.657 83 255 83L 3 83C 1.34315 83 0 81.6569 0 80L 0 3Z"/>
+</defs>
+</svg>

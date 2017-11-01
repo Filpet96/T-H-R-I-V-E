@@ -114,6 +114,7 @@ height: 100%;
            }
            .WEARE {
              font-size: 8vh;
+
             letter-spacing: 1vh;
            }
 
@@ -191,6 +192,7 @@ font-size: 1.5vh;
            color: #FAFAFB;
            z-index: 10;
            text-transform: uppercase;
+           filter: blur(0px);
          }
          #counscious h2 {
            font-family: 'Muli', sans-serif;
@@ -203,8 +205,8 @@ font-size: 1.5vh;
            z-index: 10;
          }
          #counscious {
-           background: rgba(216, 216, 216, 0.0001);
-border: 3px solid #FFFFFF;
+
+border: 0.4vh solid white;
            display: block;
            width: 29vh;
            height: 10vh;
@@ -212,7 +214,45 @@ border: 3px solid #FFFFFF;
            z-index: 10;
            position: relative;
            top: 10vh;
+
          }
+#section4 {
+  width: 100%;
+  height: 100vh;
+  background-color: #3D2D39;
+
+}
+.journey {
+  font-family: 'Muli', sans-serif;
+position: relative;
+  margin: 0;
+  left: 5vh;
+  top: 6.5vh;
+  color: white;
+  text-transform: uppercase;
+  font-size: 3vh;
+  letter-spacing: 0.5vh;
+  z-index: 1;
+}
+.modelkille {
+  position:relative;
+  display:inline-block;
+}
+.modelkille::after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+  background: linear-gradient(90deg, rgba(241, 235, 229, 0.0001) 55%, #DED2C6 90.26%);
+}
+.modelguy {
+  display:block;
+  position: relative;
+  height:80vh;
+  width:auto;
+  bottom: 0;
+}
 }
 
 .triangle2 {
