@@ -279,6 +279,7 @@ border: 3px solid #FFFFFF;
 .small-solid-circle {
   position: absolute;
   background-color: #3D2D39;
+  color: white;
   z-index: 10;
   width: calc(2.8vh + 2.8vw);
   height: calc(2.8vh + 2.8vw);
@@ -300,4 +301,11 @@ border: 3px solid #FFFFFF;
   top: 51.2vh;
   left: 20.3vw;
 
+}
+
+.people h2, .animals h2, .environment  h2 {
+  position: relative;
+  top: calc(-0.7vh + -0.7vw);
+  left: calc(3.8vh + 3.8vw);
+  font-size: calc(1.45vh + 1.45vw);
 }
