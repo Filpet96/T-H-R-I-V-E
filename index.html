@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./CSS/style.css">
   <link rel="stylesheet" href="./CSS/desktop.css">
   <link rel="stylesheet" href="./fullPage/jquery.fullPage.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="./fullPage/jquery-3.2.1.js"></script>
   <script src="./fullPage/jquery.fullPage.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
@@ -85,7 +86,9 @@
         <img class="topleftriangle iphone" src="./SVG/Page02/toplefttri.svg" alt="">
         <img class="bottomdarksmalltriangle iphone" src="./SVG/Page02/bottomdarksmalltriangle.svg" alt="">
         <div class="gradient02"></div>
-        <img src="./SVG/Page02/Planet.svg" alt="" class="planetiphone iphone">
+        <div class="testfade">
+          <img src="./SVG/Page02/Planet.svg" alt="" class="planetiphone iphone">
+        </div>
         <img src="./SVG/Page02/People.svg" alt="" class="peopleiphone iphone">
         <img src="./SVG/Page02/Animals.svg" alt="" class="animalsiphone iphone">
         <img src="./SVG/Page02/bottombar.svg" alt="" class="bottombar iphone">
@@ -129,19 +132,19 @@
         <img class="p03darkbottom iphone" src="./SVG/Page03/Darkbottom.svg" alt="">
         <!-- SLIDESHOW -->
         <ul id="slider1" class="images-list">
-    <li data-index="0" ><img src="./Images/cotton.jpg" alt=""> </li>
-    <li data-index="1"><img src="./Images/tree.jpg" alt=""></li>
-    <li data-index="2"><img src="./Images/wood.jpg" alt=""></li>
-    <li data-index="3"><img src="./Images/plastic.jpg" alt=""></li>
-</ul>
+          <li data-index="0"><img src="./Images/cotton.jpg" alt=""> </li>
+          <li data-index="1"><img src="./Images/tree.jpg" alt=""></li>
+          <li data-index="2"><img src="./Images/wood.jpg" alt=""></li>
+          <li data-index="3"><img src="./Images/plastic.jpg" alt=""></li>
+        </ul>
 
-<ul class="controls">
-    <li class="dot1 active"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
-    <li class="dot2"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
-    <li class="dot3"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
-    <li class="dot4"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
+        <ul class="controls">
+          <li class="dot1 active"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
+          <li class="dot2"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
+          <li class="dot3"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
+          <li class="dot4"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
 
-</ul>
+        </ul>
         <!-- SLIDESHOW END -->
         <img class="p03bottomdiffcol iphone" src="./SVG/Page03/bottomdiffcol.svg" alt="">
         <div class="PLANET iphone">
@@ -227,25 +230,52 @@
   });
 </script>
 <script>
-$.fn.slider = function () {
-  var $this = this;
-  var $controls = $this.nextAll('.controls').first();
-  var index;
+  $.fn.slider = function() {
+    var $this = this;
+    var $controls = $this.nextAll('.controls').first();
+    var index;
 
-  $this.find('li:gt(0)').hide();
-  setInterval(function () {
-      $this.find('li:first-child').fadeOut(3000)
+    $this.find('li:gt(0)').hide();
+    setInterval(function() {
+        $this.find('li:first-child').fadeOut(3000)
           .next('li').fadeIn(3000)
           .end().appendTo($this);
         var index = $this.find('li:first-child').data('index');
         $controls.find('li.active').removeClass('active');
         $controls.find('li').eq(index).addClass('active');
-  },
-  4000);
-};
+      },
+      4000);
+  };
 
 
-$('#slider1').slider();
+  $('#slider1').slider();
+</script>
+<script>
+  $(document).ready(function() {
+
+    /* Every time the window is scrolled ... */
+    $(window).scroll(function() {
+
+      /* Check the location of each desired element */
+      $('.planetiphone').each(function(i) {
+
+        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        /* If the object is completely visible in the window, fade it it */
+        if (bottom_of_window > bottom_of_object) {
+
+          $(this).animate({
+            'opacity': '1'
+          }, 4500);
+
+        }
+
+      });
+
+    });
+
+  });
 </script>
 
 </html>
