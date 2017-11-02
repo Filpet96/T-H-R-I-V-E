@@ -128,20 +128,20 @@
         <img class="p03logotext iphone" src="./SVG/Page03/THRIVETEXT.svg" alt="">
         <img class="p03darkbottom iphone" src="./SVG/Page03/Darkbottom.svg" alt="">
         <!-- SLIDESHOW -->
-        <div id="slideshow">
-          <div>
-           <img src="./Images/tree.jpg">
-           </div>
-           <div>
-           <img src="./Images/wood.jpg">
-           </div>
-           <div>
-          <img src="./Images/plastic.jpg">
-           </div>
-           <div>
-          <img src="./Images/cotton.jpg">
-           </div>
-        </div>
+        <ul id="slider1" class="images-list">
+    <li data-index="0" ><img src="./Images/cotton.jpg" alt=""> </li>
+    <li data-index="1"><img src="./Images/tree.jpg" alt=""></li>
+    <li data-index="2"><img src="./Images/wood.jpg" alt=""></li>
+    <li data-index="3"><img src="./Images/plastic.jpg" alt=""></li>
+</ul>
+
+<ul class="controls">
+    <li class="dot1 active"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
+    <li class="dot2"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
+    <li class="dot3"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
+    <li class="dot4"><img class="iphone" src="./SVG/Page03/Button03.svg" alt=""></li>
+
+</ul>
         <!-- SLIDESHOW END -->
         <img class="p03bottomdiffcol iphone" src="./SVG/Page03/bottomdiffcol.svg" alt="">
         <div class="PLANET iphone">
@@ -153,23 +153,21 @@
         <div class="MATERIALS iphone">
           <h1>M A T E R I A L S</h1>
         </div>
+
         <div class="organiccotton03">
           <h1>ORGANIC COTTON</h1>
-          <img class="iphone" src="./SVG/Page03/Button03.svg" alt="">
         </div>
         <div class="Lenzingmodal03">
           <h1>LENZING MODAL</h1>
-          <img class="iphone" src="./SVG/Page03/Button03.svg" alt="">
         </div>
         <div class="Tencel03">
           <h1>TENCEL® (LYOCELL)</h1>
-          <img class="iphone" src="./SVG/Page03/Button03.svg" alt="">
         </div>
         <div class="Recyclespolyester03">
           <h1>RECYCLED POLYESTER</h1>
-          <img class="iphone" src="./SVG/Page03/Button03.svg" alt="">
         </div>
         <img class="p03tyg iphone" src="./SVG/Page03/tyg.svg" alt="">
+
       </div>
       <!------------------->
       <!--- FOURTH PAGE --->
@@ -229,16 +227,25 @@
   });
 </script>
 <script>
-$("#slideshow > div:gt(0)").hide();
+$.fn.slider = function () {
+  var $this = this;
+  var $controls = $this.nextAll('.controls').first();
+  var index;
 
-setInterval(function() {
-$('#slideshow > div:first')
-  .fadeOut(3000)
-  .next()
-  .fadeIn(3000)
-  .end()
-  .appendTo('#slideshow');
-}, 4000);
+  $this.find('li:gt(0)').hide();
+  setInterval(function () {
+      $this.find('li:first-child').fadeOut(3000)
+          .next('li').fadeIn(3000)
+          .end().appendTo($this);
+        var index = $this.find('li:first-child').data('index');
+        $controls.find('li.active').removeClass('active');
+        $controls.find('li').eq(index).addClass('active');
+  },
+  4000);
+};
+
+
+$('#slider1').slider();
 </script>
 
 </html>

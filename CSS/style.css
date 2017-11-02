@@ -276,13 +276,13 @@ border: 3px solid #000000;
 .p03darktriangle {
   position: absolute;
   top: 0;
-  z-index: 1;
+  z-index: 3;
 }
 .p03darkbottom {
   position: absolute;
   top: 0;
   margin-top: 506px;
-  z-index: 1;
+  z-index: 3;
 }
 .p03bluebackground {
   position: absolute;
@@ -296,14 +296,14 @@ border: 3px solid #000000;
   top: 0;
   left: 11px;
   margin-top: 13px;
-  z-index: 2;
+  z-index: 4;
 }
 .p03logotext {
   position: absolute;
   top: 0;
   margin-top: 108px;
   left: 13px;
-  z-index: 2;
+  z-index: 4;
 }
 .PLANET h1 {
   position: absolute;
@@ -347,13 +347,13 @@ top: 143px;
   left: 28px;
 top: 264px;
 font-size: 15px;
-z-index: 2;
+z-index: 4;
 font-weight: 200;
 line-height: 0;
 }
 .organiccotton03 img {
 position: absolute;
-z-index: 2;
+z-index: 4;
 left: 173px;
 top: 245px;
 mix-blend-mode: normal;
@@ -365,13 +365,13 @@ opacity: 0.9;
   left: 79.5px;
 top: 327px;
 font-size: 15px;
-z-index: 2;
+z-index: 4;
 font-weight: 200;
 line-height: 0;
 }
 .Lenzingmodal03 img {
   position: absolute;
-  z-index: 2;
+  z-index: 4;
   left: 211px;
 top: 308px;
   mix-blend-mode: normal;
@@ -383,13 +383,13 @@ top: 308px;
   left: 95px;
 top: 387px;
 font-size: 15px;
-z-index: 2;
+z-index: 4;
 font-weight: 200;
 line-height: 0;
 }
 .Tencel03 img {
   position: absolute;
-  z-index: 2;
+  z-index: 4;
   left: 249px;
 top: 371px;
   mix-blend-mode: normal;
@@ -401,13 +401,13 @@ top: 371px;
   left: 112px;
 top: 450px;
 font-size: 15px;
-z-index: 2;
+z-index: 4;
 font-weight: 200;
 line-height: 0;
 }
 .Recyclespolyester03 img {
   position: absolute;
-  z-index: 2;
+  z-index: 4;
   left: 286px;
 top: 434px;
   mix-blend-mode: normal;
@@ -417,7 +417,7 @@ top: 434px;
   position: absolute;
   left: 10px;
 top: 510px;
-  z-index: 2;
+  z-index: 4;
 }
 /*Albert har lagt till*/
 .desktop {
@@ -596,23 +596,76 @@ left: 193px;
 top: 582px;
 z-index: 999;
 }
-#slideshow {
+#slider1 {
   position: absolute;
   background-color: #5A6D77;
   top: 180px;
   left: 180px;
   height: 449px;
   width: 195px;
+  z-index: 0;
+  padding: 0;
 }
-#slideshow img {
+#slider1 img {
   width: 100%;
   height: 100%;
+  z-index: 0;
 }
-#slideshow > div {
+ul {
+    list-style: none;
     position: absolute;
-    top: 0px;
-    left: 0px; 
-    right: 0px;
-    bottom: 0px;
 }
+.images-list {
+position: absolute;
+}
+.images-list > li {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  -webkit-transition: 0s;
+  -moz-transition: 0s;
+  -ms-transition: 0s;
+  -o-transition: 0s;
+
+}
+.controls {
+    position: absolute;
+margin: 0;
+    z-index: 5;
+}
+.controls > li {
+    opacity: 0.5;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.controls > li:nth-child(2n) {
+
+}
+.controls > li.active {
+  /*border-radius:50px;
+  box-shadow: 0 0 40px #ea4c89, inset 0 0 40px #ea4c89;*/
+  opacity: 1;
+}
+.dot1 {
+  position: absolute;
+  left: 173px;
+top: 245px;
+}
+.dot2 {
+  position: absolute;
+  left: 211px;
+top: 308px;
+}
+.dot3 {
+  position: absolute;
+  left: 249px;
+top: 371px;
+}
+.dot4 {
+  position: absolute;
+  left: 286px;
+top: 434px;
 }
