@@ -451,10 +451,38 @@ span h1 {
   z-index: 2;
 }
 
-.planet-friendly-materials {
-width: 35vw;
-height: 10vh;
+.line-black {
+  position: absolute;
+  left: 54vw;
+  height: 14.6vh;
+  width: 42vw;
+  border-bottom: 1px solid black;
+}
 
+
+.planet-friendly-materials {
+  position: absolute;
+  top: 17.9vh;
+  left: 58vw;
+  color: white;
+  z-index: 10;
+}
+
+.planet-friendly-materials h1 {
+  font-size: calc(3.3vh + 3.4vw);
+  font-weight: bold;
+  letter-spacing: 0.3vw;
+  margin: -4%;
+  text-align: center;
+}
+
+.planet-friendly-materials h2 {
+  font-size: 82px;
+  font-size: calc(1.95vh + 1.95vw);
+  font-weight: bold;
+  letter-spacing: 0.3vw;
+  text-align: center;
+  margin: 0;
 }
 
 .polyester {
@@ -497,4 +525,73 @@ height: 10vh;
   z-index: 1;
   border-top: 100vh solid #3D2D39;
   border-right: 50vw solid transparent;
+}
+
+.line-polyester {
+  position: absolute;
+  top: 40vh;
+  left: 0vw;
+  width: 57.2vw;
+  height: 11.6vh;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 5;
+}
+
+.line-tencel {
+  position: absolute;
+  top: 40vh;
+  left: 0vw;
+  width: 69.4vw;
+  height: 25vh;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 4;
+}
+
+.line-cotton {
+  position: absolute;
+  top: 40vh;
+  left: 0vw;
+  width: 82vw;
+  height: 39.8vh;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 3;
+}
+
+.line-lenzing {
+  position: absolute;
+  top: 40vh;
+  left: 0vw;
+  width: 93.2vw;
+  height: 54vh;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 2;
+}
+
+.line-polyester h2, .line-tencel h2, .line-cotton h2, .line-lenzing h2 {
+  font-size: calc(1.46vh + 1.47vw);
+  color: white;
+  justify-content: flex-end;
+  margin-right: 1.7%;
+  margin-bottom: 1%;
+  letter-spacing: 0.3vw;
 }
