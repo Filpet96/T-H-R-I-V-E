@@ -606,32 +606,32 @@ span h1 {
   border: 2px white solid;
 }
 
-.fair {
+.fair-d {
   top: 19.35vh;
   left: 34.45vw;
 }
 
-.toxic {
+.toxic-d {
   top: 30.75vh;
   left: 29.25vw;
 }
 
-.quality {
+.quality-d {
   top: 42.3vh;
   left: 23.4vw;
 }
 
-.organic {
+.organic-d {
   top: 53.75vh;
   left: 18vw;
 }
 
-.vegan {
+.vegan-d {
   top: 66vh;
   left: 11.75vw;
 }
 
-.fair h2, .toxic h2, .quality h2, .organic h2, .vegan h2 {
+.fair-d h2, .toxic-d h2, .quality-d h2, .organic-d h2, .vegan-d h2 {
   position: relative;
   left: calc(-4vh + -5vw);
   font-size: calc(0.9vh + 1vw);
