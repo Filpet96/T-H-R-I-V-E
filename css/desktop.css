@@ -19,14 +19,14 @@ html, body {
   padding: 0;
 }
 
-    body {
-        background-color: white;
-        height: 100%;
-    }
-    #section0 {
-      width: 100%;
-      height: 100%;
-    }
+body {
+  background-color: white;
+  height: 100%;
+}
+#section0 {
+  width: 100%;
+  height: 100%;
+}
 
 #wrapper {
   width: 100%;
@@ -35,12 +35,11 @@ html, body {
 
 #container {
   width: 100%;
-height: 100%;
+  height: 100%;
 }
 
 .responstri {
   height: 100%;
-
 }
 
 .forest {
@@ -75,8 +74,8 @@ height: 100%;
   z-index: 1;
   border-bottom: 100vh solid #DED2C6;
   border-left: 50vw solid transparent;
-
 }
+
 .transparentoverlay {
   position: fixed;
   top: 0vh;
@@ -93,129 +92,132 @@ height: 100%;
             animation-delay: 3s;
             animation-iteration-count: infinite;
 }
+
 .bounce {
-            -webkit-animation-name: bounce;
-            animation-name: bounce;
-         }
-         @keyframes bounce {
-                     0%, 20%, 50%, 80%, 100% {border-left-width: 47.5vw; border-right-width: 47.5vw; left: 2.5vw;border-top-width:95vh;top: 0vh}
-                     40% {border-left-width: 50vw; border-right-width: 50vw; left: 0;border-top-width:100vh;top: 0vh}
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
 
-                  }
-         #change h1 {
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {border-left-width: 47.5vw; border-right-width: 47.5vw; left: 2.5vw;border-top-width:95vh;top: 0vh}
+  40% {border-left-width: 50vw; border-right-width: 50vw; left: 0;border-top-width:100vh;top: 0vh}
+}
 
-             font-style: bold;
-             text-align: center;
-             line-height: 4vh;
-             font-family: 'Muli', sans-serif;
-             color: #FAFAFB;
-             z-index: 10;
+#change h1 {
+  font-style: bold;
+  text-align: center;
+  line-height: 4vh;
+  font-family: 'Muli', sans-serif;
+  color: #FAFAFB;
+  z-index: 10;
+}
 
-           }
-           .WEARE {
-             font-size: 8vh;
+.WEARE {
+  font-size: 8vh;
+  letter-spacing: 1vh;
+}
 
-            letter-spacing: 1vh;
-           }
+.text {
+  position: relative;
+  z-index: 5;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-           .text {
-             position: relative;
-             z-index: 5;
-             color: white;
-             display: flex;
-             justify-content: center;
-             align-items: center;
-            flex-direction: column;
-           }
-           span {
-          height: 7vh;
-          font-family: 'Muli', sans-serif;
-           }
-           span h2 {
-             font-size: 14vh;
-             letter-spacing: 2vh;
-           }
-           span h1 {
-             font-size: 10vh;
-            letter-spacing: 1vh;
-           }
-           .change1 {
-             display: none;
+span {
+  height: 7vh;
+  font-family: 'Muli', sans-serif;
+}
 
-           }
-           .change2 {
-             letter-spacing: 1vh;
-             z-index: 10;
-              font-size: 11vh;
+span h2 {
+  font-size: 14vh;
+  letter-spacing: 2vh;
+}
 
-           }
+span h1 {
+  font-size: 10vh;
+  letter-spacing: 1vh;
+}
 
-           .consciousfashion {
-             position: relative;
-             display: flex;
-             justify-content: center;
-             align-items: center;
-             z-index: 10;
-             width: 42vh;
-             height: 12vh;
-             border: 3px solid white;
-             margin-top: 30vh;
-             flex-direction: column;
-             font-family: 'Muli', sans-serif;
+.change1 {
+  display: none;
+}
 
+.change2 {
+  letter-spacing: 1vh;
+  z-index: 10;
+  font-size: 11vh;
+}
 
-           }
-           .consciousfashion h3 {
-          margin: 0;
-          margin-top: 1vh;
-            font-size: 6vh;
-            letter-spacing: 2vh;
-           }
-           .consciousfashion p {
-letter-spacing: 1.3vh;
-text-transform: uppercase;
-font-size: 1.5vh;
-           }
-         #change {
-           margin-top: 14vh;
-           position: relative;
-           z-index: 10;
-         }
+.consciousfashion {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  width: 42vh;
+  height: 12vh;
+  border: 3px solid white;
+  margin-top: 30vh;
+  flex-direction: column;
+  font-family: 'Muli', sans-serif;
+}
 
-         #counscious p {
-           font-family: 'Muli', sans-serif;
-           font-style: bold;
-           line-height: 0;
-           text-align: center;
-           font-size: 1.5vh;
-           letter-spacing: 0.4vh;
-           color: #FAFAFB;
-           z-index: 10;
-           text-transform: uppercase;
-           filter: blur(0px);
-         }
-         #counscious h2 {
-           font-family: 'Muli', sans-serif;
-           font-style: bold;
-           line-height: 1vh;
-           text-align: center;
-           font-size: 4vh;
-           letter-spacing: 0.5vh;
-           color: #FAFAFB;
-           z-index: 10;
-         }
-         #counscious {
+.consciousfashion h3 {
+  margin: 0;
+  margin-top: 1vh;
+  font-size: 6vh;
+  letter-spacing: 2vh;
+}
 
-border: 0.4vh solid white;
-           display: block;
-           width: 29vh;
-           height: 10vh;
-           margin: 0 auto;
-           z-index: 10;
-           position: relative;
-           top: 10vh;
+.consciousfashion p {
+  letter-spacing: 1.3vh;
+  text-transform: uppercase;
+  font-size: 1.5vh;
+}
+#change {
+  margin-top: 14vh;
+  position: relative;
+  z-index: 10;
+}
 
-         }
+#counscious p {
+  font-family: 'Muli', sans-serif;
+  font-style: bold;
+  line-height: 0;
+  text-align: center;
+  font-size: 1.5vh;
+  letter-spacing: 0.54vh;
+  color: #FAFAFB;
+  z-index: 10;
+  text-transform: uppercase;
+  filter: blur(0px);
+}
+#counscious h2 {
+  font-family: 'Muli', sans-serif;
+  font-style: bold;
+  line-height: 1vh;
+  text-align: center;
+  font-size: 4vh;
+  letter-spacing: 0.5vh;
+  color: #FAFAFB;
+  z-index: 10;
+}
+#counscious {
+
+  border: 0.4vh solid white;
+  display: block;
+  width: 29vh;
+  height: 10vh;
+  margin: 0 auto;
+  z-index: 10;
+  position: relative;
+  top: 10vh;
+
+}
 #section4 {
   width: 100%;
   height: 100vh;
@@ -224,7 +226,7 @@ border: 0.4vh solid white;
 }
 .journey {
   font-family: 'Muli', sans-serif;
-position: relative;
+  position: relative;
   margin: 0;
   left: 5vh;
   top: 6.5vh;
@@ -321,47 +323,78 @@ position: relative;
   background-color: #3D2D39;
   color: white;
   z-index: 10;
-  width: calc(2.8vh + 2.8vw);
-  height: calc(2.8vh + 2.8vw);
+  width: calc(4.5vh + 3.2vw);
+  height: calc(4.5vh + 3.2vw);
   border-radius: 100px;
   border: 2px white solid;
 }
 
 .people {
-  top: 26vh;
-  left: 32.7vw;
+  background-image: url(../Images/People.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 75%;
+  top: 25.6vh;
+  left: 30.9vw;
 }
 
 .animals {
-  top: 38.5vh;
-  left: 26.3vw;
+  background-image: url(../Images/Bear.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 83%;
+  top: 38vh;
+  left: 24.7vw;
 }
 
 .environment {
-  top: 51.2vh;
-  left: 20.3vw;
+  background-image: url(../Images/Planet.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 85%;
+  top: 50vh;
+  left: 18.6vw;
 }
 
-.people h2, .animals h2, .environment  h2 {
+.people h2, .animals h2, .environment h2 {
   position: relative;
-  top: calc(-0.7vh + -0.7vw);
-  left: calc(3.8vh + 3.8vw);
+  top: 0;
+  left: 7.6vw;
   font-size: calc(1.45vh + 1.45vw);
 }
 
 .info-idag {
   position: absolute;
-  top: 71vh;
-  left: 16vw;
-  color: white;
+  top: 76vh;
+  left: 15vw;
+  color: black;
   z-index: 10;
-  font-weight: 300;
 }
 
 .info-idag h1 {
-  font-size: calc(1.15vh + 1.15vw);
-  letter-spacing: 0.33vw;
+  font-size: calc(1.4vh + 1.4vw);
+  letter-spacing: 0.2vw;
+  font-weight: bolder;
   margin: 0;
+}
+
+.info-idag h2 {
+  font-size: calc(1.25vh + 1.25vw);
+  letter-spacing: 0.12vw;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 2%;
+}
+
+.background-fade-box {
+  position: absolute;
+  top: 23.8vh;
+  left: 17.8vh;
+  width: 46vw;
+  height: 39.5vh;
+  background: linear-gradient(90deg, rgba(61, 45, 57, 1.0), rgba(0, 0, 0, 0));
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .beige-background-p3 {
@@ -374,7 +407,6 @@ position: relative;
   width: 100%;
   z-index: 0;
 }
-
 
 .model-photo-p4 {
   position: absolute;
@@ -398,7 +430,7 @@ position: relative;
   width: 0px;
   height: 0px;
   z-index: 1;
-  border-bottom: 72.2vh solid #3D2D39;
+  border-bottom: 40vh solid #3D2D39;
   border-right: 50vw solid transparent;
 }
 
@@ -406,8 +438,78 @@ position: relative;
   position: absolute;
   background: #3D2D39;
   width: 100%;
-  height: 27.8vh;
+  height: 60vh;
   bottom: 0;
+}
+
+.p03tyg-desktop {
+  position: absolute;
+  width: 21vw;
+  height: 20vh;
+  top: 21vh;
+  left: 3vw;
+  z-index: 2;
+}
+
+.line-black {
+  position: absolute;
+  left: 54vw;
+  height: 14.6vh;
+  width: 42vw;
+  border-bottom: 1px solid black;
+}
+
+
+.planet-friendly-materials {
+  position: absolute;
+  top: 17.9vh;
+  left: 58vw;
+  color: white;
+  z-index: 10;
+}
+
+.planet-friendly-materials h1 {
+  font-size: calc(3.3vh + 3.4vw);
+  font-weight: bold;
+  letter-spacing: 0.3vw;
+  margin: -4%;
+  text-align: center;
+}
+
+.planet-friendly-materials h2 {
+  font-size: 82px;
+  font-size: calc(1.95vh + 1.95vw);
+  font-weight: bold;
+  letter-spacing: 0.3vw;
+  text-align: center;
+  margin: 0;
+}
+
+.polyester {
+  top: 35.5vh;
+  left: 54vw;
+}
+
+.tencel {
+  top: 35.5vh;
+  left: 66.2vw;
+}
+
+.cotton {
+  top: 35.5vh;
+  left: 78.5vw;
+}
+
+.lenzing {
+  top: 35.5vh;
+  left: 90vw;
+}
+
+.polyester h2, .tencel h2, .cotton h2, .lenzing h2 {
+  position: relative;
+  top: calc(-0.7vh + -0.7vw);
+  left: calc(3.8vh + 3.8vw);
+  font-size: calc(1.45vh + 1.45vw);
 }
 
 .triangle4 {
@@ -425,33 +527,71 @@ position: relative;
   border-right: 50vw solid transparent;
 }
 
-.p03tyg-desktop {
+.line-polyester {
   position: absolute;
-  width: 25vw;
-  height: 24vh;
-  top: 42vh;
-  left: 5.4vw;
+  top: 40vh;
+  left: 0vw;
+  width: 57.2vw;
+  height: 11.6vh;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 5;
+}
+
+.line-tencel {
+  position: absolute;
+  top: 40vh;
+  left: 0vw;
+  width: 69.4vw;
+  height: 25vh;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 4;
+}
+
+.line-cotton {
+  position: absolute;
+  top: 40vh;
+  left: 0vw;
+  width: 82vw;
+  height: 39.8vh;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 3;
+}
+
+.line-lenzing {
+  position: absolute;
+  top: 40vh;
+  left: 0vw;
+  width: 93.2vw;
+  height: 54vh;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
   z-index: 2;
 }
 
-.polyester {
-  top: 68.5vh;
-  left: 59.5vw;
-}
-
-.tencel {
-  top: 68.5vh;
-  left: 72vw;
-}
-
-.cotton {
-  top: 68.5vh;
-  left: 80vw;
-
-}
-.polyester h2, .tencel h2, .environment  h2 {
-  position: relative;
-  top: calc(-0.7vh + -0.7vw);
-  left: calc(3.8vh + 3.8vw);
-  font-size: calc(1.45vh + 1.45vw);
+.line-polyester h2, .line-tencel h2, .line-cotton h2, .line-lenzing h2 {
+  font-size: calc(1.46vh + 1.47vw);
+  color: white;
+  justify-content: flex-end;
+  margin-right: 1.7%;
+  margin-bottom: 1%;
+  letter-spacing: 0.3vw;
 }
