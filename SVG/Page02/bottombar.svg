@@ -1,9 +1,9 @@
 <svg width="375" height="120" viewBox="0 0 375 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Bottom</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(11 -369)">
+<g id="Canvas" transform="translate(-218 423)">
 <g id="Bottom">
-<use xlink:href="#path0_fill" transform="translate(-11 369)" fill="#F4EAE0"/>
+<use xlink:href="#path0_fill" transform="translate(218 -423)" fill="#F4EAE0"/>
 </g>
 </g>
 <defs>
