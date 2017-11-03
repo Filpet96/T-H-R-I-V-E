@@ -2,6 +2,9 @@
 and (min-device-width : 175px)
 and (max-device-width : 867px) {
 
+* {
+
+}
 html, body {
   margin:0;
   padding: 0;
@@ -10,59 +13,68 @@ html, body {
         background-color: white;
         font-family: 'Muli', sans-serif;
     }
-#change h1 {
-    font-size: 12.8vw;
-    font-style: bold;
-    text-align: center;
-    line-height: 6.666666666666667vw;
-    letter-spacing: 0.5333333333333333vw;
-    font-family: 'Muli', sans-serif;
-    color: #FAFAFB;
-    z-index: 10;
+
+  .WEARE {
+position: absolute;
+color: #E6E7E4;
+font-size: 48px;
+z-index: 10;
+left: 42px;
+top: 63px;
+margin: 0;
+font-family: 'Muli', sans-serif;
   }
   .change1 {
+    position: absolute;
     letter-spacing: 0.5333333333333333vw;
     z-index: 10;
+    color: #E6E7E4;
+    font-size: 48px;
+    margin: 0;
+    left: 57px;
+top: 112px;
+font-family: 'Muli', sans-serif;
   }
-#change {
-  margin-top: 16.8vw;
-  position: relative;
-  z-index: 10;
-}
-#counscious h2 {
-  font-family: 'Muli', sans-serif;
 
-  line-height: 0px;
-  text-align: center;
+#counscious h2 {
+  position: absolute;
+  font-family: 'Muli', sans-serif;
+  line-height: normal;
   font-size: 6.133333333333334vw;
   color: #FAFAFB;
   font-weight: 300;
   letter-spacing: 0.5333333333333333vw;
+  margin: 0;
+  top: 4px;
+  left: 15px;
 }
 #counscious, p {
+  position: absolute;
   font-family: 'Muli', sans-serif;
-
-  line-height: 0px;
-  text-align: center;
+margin: 0;
+  line-height: normal;
   font-size: 1.8666666666666667vw;
   letter-spacing: 0.80vw;
   color: #FAFAFB;
   z-index: 10;
+top: 32px;
+left: 15px;
 }
 #counscious {
   border: 1px solid #F0F0F0;
   display: block;
   width: 42.13333333333333vw;
   height: 13.333333333333334vw;
-  margin: 0 auto;
+
   z-index: 10;
-  position: relative;
-  margin-top: 23.2vw;
+  position: absolute;
+  left: 104px;
+top: 199px;
 }
 #container {
   display: block;
   max-width: 100vw;
-  height: auto;
+  height: 100vh;
 }
 @-webkit-keyframes bounce {
             0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
@@ -89,8 +101,7 @@ html, body {
          }
 .triangle1 {
   position: absolute;
-  top: 0;
-  margin-top: 40vw;
+  top: 40vw;
 }
 .dark {
 z-index: 0;
@@ -108,31 +119,29 @@ z-index: 29;
 background-position: center;
 background-size: cover;
 max-width: 100vw;
-margin-bottom: -16vw;
+top: 0;
 }
 .imagetext h1 {
   position: absolute;
-  top: 0;
-  margin-top: 148vw;
+  margin: 0;
+  top: 555px;
   color: #121212;
   line-height: 5.6vw;
   font-size: 4.533333333333333vw;
   text-align: left;
   width: 83.2vw;
   height: 16.8vw;
-  margin-left: 16vw;
+  left: 16vw;
   font-family: 'Muli', sans-serif;
 }
 .smalldarktriangle {
   position: absolute;
   z-index: 30;
-  margin-top: -0.13333vw;
 }
 .planetiphone {
   position: absolute;
   top: 286px;
   left: 13.333333333333334vw;
-  opacity: 0;
 }
 .peopleiphone {
   position: absolute;
@@ -176,8 +185,7 @@ margin-bottom: -16vw;
 }
 .brownbackground {
   position: absolute;
-  margin-top: 234.66666666666666vw;
-  top: 0;
+  top: 234.66666666666666vw;
   width: 100vw;
 }
 .topleftriangle{
@@ -189,11 +197,12 @@ margin-bottom: -16vw;
 .quote h1 {
 position: absolute;
 color: #E6E7E4;
+margin: 0;
 z-index: 35;
 font-weight: bold;
 text-align: left;
 font-size: 25px;
-line-height: 0;
+line-height: normal;
 left: 62px;
 top: 209px;
 font-family: 'Muli', sans-serif;
@@ -202,74 +211,18 @@ width: 278px;
 text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .cycletext h1 {
-  top: 0;
+  top: 626px;
+  margin: 0;
   position: absolute;
   color: #121212;
   font-size: 19px;
   font-weight: bold;
-  margin-left: 128px;
-  width: 232px;
-  height: 24px;
-  margin-top: 626px;
+  left: 128px;
   font-family: 'Muli', sans-serif;
+  line-height: 24px;
 }
-.recyclingmachine1 {
-  position: absolute;
-  top: 0;
-  margin-top: 1617px;
-  margin-left: 18px;
-  z-index: 12;
-}
-.Recyclingmachine h1 {
-  position: absolute;
-  top: 0;
-  margin-top: 1827px;
-  left: 0;
-  margin-left: 117px;
-  color: white;
-  font-size: 16px;
-  font-family: 'Muli', sans-serif;
-  font-style: bold;
-  line-height: 20px;
-  text-align: left;
-  display: block;
-  margin-right: 23px;
-  letter-spacing: 0;
-  z-index: 12;
-}
-.plasticbottle {
-  position: absolute;
-  top: 0;
-margin-top: 1899px;
-margin-left: 20px;
-z-index: 12;
-}
-.plastic {
-  position: absolute;
-  top: 0;
-  margin-top: 1923px;
-  margin-left: 98px;
-z-index: 12;
-}
-.sewingthread {
-  position: absolute;
-  top: 0;
-  margin-top: 1912px;
-  margin-left: 188px;
-  z-index: 12;
-}
-.section {
-  height: 100vh;
-}
-.line {
-position: absolute;
-width: 167.38px;
-height: 0px;
-margin-left: 113.62px;
-top: 0;
-margin-top: 1334px;
-border: 3px solid #000000;
-}
+
+
 .p03brown {
   position: absolute;
   top: 0;
@@ -281,28 +234,20 @@ border: 3px solid #000000;
 }
 .p03darkbottom {
   position: absolute;
-  top: 0;
-  margin-top: 506px;
+  top: 506px;
   z-index: 3;
 }
-.p03bluebackground {
-  position: absolute;
-  top: 0;
-  margin-top: 220px;
-  left: 182px;
-  z-index: 0;
-}
+
 .p03thrivelogo {
   position: absolute;
-  top: 0;
-  left: 11px;
-  margin-top: 13px;
+  top: 13px;
+  left: 2.933333333333333vw;
+  margin: 0 ;
   z-index: 4;
 }
 .p03logotext {
   position: absolute;
-  top: 0;
-  margin-top: 108px;
+  top: 108px;
   left: 13px;
   z-index: 4;
 }
@@ -351,6 +296,7 @@ font-size: 15px;
 z-index: 4;
 font-weight: 200;
 line-height: 0;
+margin: 0;
 }
 .organiccotton03 img {
 position: absolute;
@@ -369,15 +315,9 @@ font-size: 15px;
 z-index: 4;
 font-weight: 200;
 line-height: 0;
+margin: 0;
 }
-.Lenzingmodal03 img {
-  position: absolute;
-  z-index: 4;
-  left: 211px;
-top: 308px;
-  mix-blend-mode: normal;
-  opacity: 0.9;
-}
+
 .Tencel03 h1 {
   position: absolute;
   color: #FFFFFF;
@@ -387,6 +327,7 @@ font-size: 15px;
 z-index: 4;
 font-weight: 200;
 line-height: 0;
+margin: 0;
 }
 .Tencel03 img {
   position: absolute;
@@ -405,6 +346,7 @@ font-size: 15px;
 z-index: 4;
 font-weight: 200;
 line-height: 0;
+margin: 0;
 }
 .Recyclespolyester03 img {
   position: absolute;
@@ -433,8 +375,7 @@ top: 510px;
   z-index: 1
 }
 .leftborder {
-  top: 0;
-  margin-top: 440px;
+  top: 440px;
   position: absolute;
 }
 .textborder {
@@ -636,11 +577,10 @@ margin: 0;
     z-index: 5;
 }
 .controls > li {
+
     opacity: 0.5;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin: 0;
 }
 .controls > li:nth-child(2n) {
 

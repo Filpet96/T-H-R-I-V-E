@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./CSS/style.css">
   <link rel="stylesheet" href="./CSS/desktop.css">
   <link rel="stylesheet" href="./fullPage/jquery.fullPage.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> -->
   <script src="./fullPage/jquery-3.2.1.js"></script>
   <script src="./fullPage/jquery.fullPage.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
@@ -86,9 +86,7 @@
         <img class="topleftriangle iphone" src="./SVG/Page02/toplefttri.svg" alt="">
         <img class="bottomdarksmalltriangle iphone" src="./SVG/Page02/bottomdarksmalltriangle.svg" alt="">
         <div class="gradient02"></div>
-        <div class="testfade">
-          <img src="./SVG/Page02/Planet.svg" alt="" class="planetiphone iphone">
-        </div>
+        <img src="./SVG/Page02/Planet.svg" alt="" class="planetiphone iphone">
         <img src="./SVG/Page02/People.svg" alt="" class="peopleiphone iphone">
         <img src="./SVG/Page02/Animals.svg" alt="" class="animalsiphone iphone">
         <img src="./SVG/Page02/bottombar.svg" alt="" class="bottombar iphone">
@@ -125,6 +123,7 @@
           <h2>Organic Cotton</h2></div>
 
         <!-- MOBILE -->
+
         <img class="p03brown iphone" src="./SVG/Page03/brownbackground.svg" alt="">
         <img class="p03darktriangle iphone" src="./SVG/Page03/Darktriangle.svg" alt="">
         <img class="p03thrivelogo iphone" src="./SVG/Page03/THRIVELOGO.svg" alt="">
@@ -250,32 +249,14 @@
 
   $('#slider1').slider();
 </script>
-<script>
-  $(document).ready(function() {
-
-    /* Every time the window is scrolled ... */
-    $(window).scroll(function() {
-
-      /* Check the location of each desired element */
-      $('.planetiphone').each(function(i) {
-
-        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-        /* If the object is completely visible in the window, fade it it */
-        if (bottom_of_window > bottom_of_object) {
-
-          $(this).animate({
-            'opacity': '1'
-          }, 4500);
-
-        }
-
-      });
-
-    });
-
-  });
-</script>
+<!-- <script>
+  // window.sr = ScrollReveal({
+  //   reset: true
+  // });
+  // sr.reveal('.planetiphone', {
+  //   duration: 4000,
+  //
+  // });
+</script> -->
 
 </html>
