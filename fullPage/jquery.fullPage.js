@@ -119,7 +119,7 @@
             navigationTooltips: [],
             showActiveTooltip: false,
             slidesNavigation: false,
-            slidesNavPosition: 'bottom',
+            slidesNavPosition: 'left',
             scrollBar: false,
             hybrid: false,
 
