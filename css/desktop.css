@@ -600,8 +600,41 @@ span h1 {
   background-color: #3D2D39;
   color: white;
   z-index: 10;
-  width: calc(4.5vh + 3.2vw);
-  height: calc(4.5vh + 3.2vw);
+  width: calc(4.1vh + 3vw);
+  height: calc(4.1vh + 3vw);
   border-radius: 100px;
   border: 2px white solid;
+}
+
+.fair {
+  top: 19.35vh;
+  left: 34.45vw;
+}
+
+.toxic {
+  top: 30.75vh;
+  left: 29.25vw;
+}
+
+.quality {
+  top: 42.3vh;
+  left: 23.4vw;
+}
+
+.organic {
+  top: 53.75vh;
+  left: 18vw;
+}
+
+.vegan {
+  top: 66vh;
+  left: 11.75vw;
+}
+
+.fair h2, .toxic h2, .quality h2, .organic h2, .vegan h2 {
+  position: relative;
+  left: calc(-4vh + -5vw);
+  font-size: calc(0.9vh + 1vw);
+  letter-spacing: 0.3vw;
+  text-align: right;
 }
