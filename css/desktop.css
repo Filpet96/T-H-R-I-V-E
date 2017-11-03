@@ -323,8 +323,8 @@ span h1 {
   background-color: #3D2D39;
   color: white;
   z-index: 10;
-  width: calc(2.8vh + 2.8vw);
-  height: calc(2.8vh + 2.8vw);
+  width: calc(4.5vh + 3.2vw);
+  height: calc(4.5vh + 3.2vw);
   border-radius: 100px;
   border: 2px white solid;
 }
@@ -334,8 +334,8 @@ span h1 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 75%;
-  top: 26vh;
-  left: 32.7vw;
+  top: 25.6vh;
+  left: 30.9vw;
 }
 
 .animals {
@@ -343,8 +343,8 @@ span h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 83%;
-  top: 38.5vh;
-  left: 26.3vw;
+  top: 38vh;
+  left: 24.7vw;
 }
 
 .environment {
@@ -352,14 +352,14 @@ span h1 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 85%;
-  top: 51.2vh;
-  left: 20.3vw;
+  top: 50vh;
+  left: 18.6vw;
 }
 
-.people h2, .animals h2, .environment  h2 {
+.people h2, .animals h2, .environment h2 {
   position: relative;
-  top: calc(-0.7vh + -0.7vw);
-  left: calc(3.8vh + 3.8vw);
+  top: 0;
+  left: 7.6vw;
   font-size: calc(1.45vh + 1.45vw);
 }
 
@@ -379,7 +379,7 @@ span h1 {
 }
 
 .info-idag h2 {
-  font-size: calc(1.2vh + 1.2vw);
+  font-size: calc(1.25vh + 1.25vw);
   letter-spacing: 0.12vw;
   font-weight: 300;
   margin: 0;
@@ -388,10 +388,10 @@ span h1 {
 
 .background-fade-box {
   position: absolute;
-  top: 23.5%;
-  left: 17.8%;
+  top: 23.8vh;
+  left: 17.8vh;
   width: 46vw;
-  height: 38.5%;
+  height: 39.5vh;
   background: linear-gradient(90deg, rgba(61, 45, 57, 1.0), rgba(0, 0, 0, 0));
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -430,7 +430,7 @@ span h1 {
   width: 0px;
   height: 0px;
   z-index: 1;
-  border-bottom: 72.2vh solid #3D2D39;
+  border-bottom: 40vh solid #3D2D39;
   border-right: 50vw solid transparent;
 }
 
@@ -438,8 +438,50 @@ span h1 {
   position: absolute;
   background: #3D2D39;
   width: 100%;
-  height: 27.8vh;
+  height: 60vh;
   bottom: 0;
+}
+
+.p03tyg-desktop {
+  position: absolute;
+  width: 21vw;
+  height: 20vh;
+  top: 21vh;
+  left: 3vw;
+  z-index: 2;
+}
+
+.planet-friendly-materials {
+width: 35vw;
+height: 10vh;
+
+}
+
+.polyester {
+  top: 35.5vh;
+  left: 54vw;
+}
+
+.tencel {
+  top: 35.5vh;
+  left: 66.2vw;
+}
+
+.cotton {
+  top: 35.5vh;
+  left: 78.5vw;
+}
+
+.lenzing {
+  top: 35.5vh;
+  left: 90vw;
+}
+
+.polyester h2, .tencel h2, .cotton h2, .lenzing h2 {
+  position: relative;
+  top: calc(-0.7vh + -0.7vw);
+  left: calc(3.8vh + 3.8vw);
+  font-size: calc(1.45vh + 1.45vw);
 }
 
 .triangle4 {
@@ -455,40 +497,4 @@ span h1 {
   z-index: 1;
   border-top: 100vh solid #3D2D39;
   border-right: 50vw solid transparent;
-}
-
-.p03tyg-desktop {
-  position: absolute;
-  width: 25vw;
-  height: 24vh;
-  top: 42vh;
-  left: 5.4vw;
-  z-index: 2;
-}
-
-.polyester {
-  top: 68.5vh;
-  left: 59.5vw;
-}
-
-.tencel {
-  top: 68.5vh;
-  left: 72vw;
-}
-
-.cotton {
-  top: 68.5vh;
-  left: 80vw;
-
-}
-.polyester h2, .tencel h2, .environment  h2 {
-  position: relative;
-  top: calc(-0.7vh + -0.7vw);
-  left: calc(3.8vh + 3.8vw);
-  font-size: calc(1.45vh + 1.45vw);
-}
-
-.planet-friendly-materials {
-
-
 }
