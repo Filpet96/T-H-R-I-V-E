@@ -13,7 +13,7 @@
   // initialize fullPage
   $('#wrapper').fullpage({
 
-    navigation: true,
+    navigation: false,
     onLeave: function(index, nextIndex, direction) {
 
       /**

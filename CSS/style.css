@@ -135,6 +135,7 @@ and (max-device-width : 867px) {
     height: 16.8vw;
     left: 16vw;
     font-family: 'Muli', sans-serif;
+    z-index: 5;
   }
   .planetiphone {
     position: absolute;
@@ -164,10 +165,12 @@ and (max-device-width : 867px) {
   .bottomdarksmalltriangle {
     position: absolute;
     bottom: 0;
+    z-index: 4;
   }
   .bottombar {
     position: absolute;
     bottom: 0;
+    z-index: 4;
   }
   .forest {
     position: absolute;
@@ -213,6 +216,7 @@ font-smoothing: antialiased !important;
     left: 128px;
     font-family: 'Muli', sans-serif;
     line-height: 24px;
+    z-index: 5;
   }
 
 
@@ -559,6 +563,8 @@ margin: 0;
   }
   .controls > li.active {
     opacity: 1;
+    /*box-shadow: 1px 1px 20px 10px white;
+    border-radius: 40px;*/
     margin: 0;
   }
   .dot1 {
