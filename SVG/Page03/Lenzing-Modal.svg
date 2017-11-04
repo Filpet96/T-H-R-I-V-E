@@ -1,0 +1,26 @@
+<svg width="30" height="55" viewBox="0 0 30 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Asset 13</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-439 -67)">
+<g id="Asset 13">
+<g id="Shape">
+<use xlink:href="#path0_stroke" transform="translate(451.27 67)" fill="#FFFFFF"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_stroke" transform="translate(451.29 92.06)" fill="#FFFFFF"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path2_stroke" transform="translate(439.51 84.62)" fill="#FFFFFF"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path3_stroke" transform="translate(451.27 70.31)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 1 54.6L 1 0L -1 0L -1 54.6L 1 54.6Z"/>
+<path id="path1_stroke" d="M 0.589592 12.6477L 16.8096 0.807701L 15.6304 -0.807701L -0.589592 11.0323L 0.589592 12.6477Z"/>
+<path id="path2_stroke" d="M 12.5872 6.24819L 0.507238 -0.861806L -0.507238 0.861806L 11.5728 7.97181L 12.5872 6.24819Z"/>
+<path id="path3_stroke" d="M 0.703243 8.01095L 8.08324 0.71095L 6.67676 -0.71095L -0.703243 6.58905L 0.703243 8.01095Z"/>
+</defs>
+</svg>
