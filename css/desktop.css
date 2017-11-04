@@ -341,8 +341,8 @@ span h1 {
 .animals {
   background-image: url(../Images/Bear.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 83%;
+  background-position: 35% 50%;
+  background-size: 82%;
   top: 38vh;
   left: 24.7vw;
 }
@@ -363,7 +363,7 @@ span h1 {
   font-size: calc(1.45vh + 1.45vw);
 }
 
-.info-idag {
+.info-p2 {
   position: absolute;
   top: 76vh;
   left: 15vw;
@@ -371,14 +371,14 @@ span h1 {
   z-index: 10;
 }
 
-.info-idag h1 {
+.info-p2 h1 {
   font-size: calc(1.4vh + 1.4vw);
   letter-spacing: 0.2vw;
   font-weight: bolder;
   margin: 0;
 }
 
-.info-idag h2 {
+.info-p2 h2 {
   font-size: calc(1.25vh + 1.25vw);
   letter-spacing: 0.12vw;
   font-weight: 300;
@@ -458,7 +458,6 @@ span h1 {
   width: 42vw;
   border-bottom: 1px solid black;
 }
-
 
 .planet-friendly-materials {
   position: absolute;
@@ -594,4 +593,139 @@ span h1 {
   margin-right: 1.7%;
   margin-bottom: 1%;
   letter-spacing: 0.3vw;
+}
+
+.small-solid-circle-p3 {
+  position: absolute;
+  background-color: #3D2D39;
+  color: white;
+  z-index: 10;
+  width: calc(4.1vh + 3vw);
+  height: calc(4.1vh + 3vw);
+  border-radius: 100px;
+  border: 2px white solid;
+}
+
+.fair-d {
+  background-image: url(../Images/fairtrade.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  top: 19.35vh;
+  left: 34.45vw;
+}
+
+.toxic-d {
+  background-image: url(../Images/toxic.png);
+  background-repeat: no-repeat;
+  background-position: 50% 63%;
+  background-size: 85%;
+  top: 30.75vh;
+  left: 29.25vw;
+}
+
+.quality-d {
+  background-image: url(../Images/quality.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 63%;
+  top: 42.3vh;
+  left: 23.4vw;
+}
+
+.organic-d {
+  background-image: url(../Images/Organic.png);
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  background-size: 86%;
+  top: 53.75vh;
+  left: 18vw;
+}
+
+.vegan-d {background-image: url(../Images/vegan.png);
+background-repeat: no-repeat;
+background-position: 60% 30%;
+background-size: 70%;
+  top: 66vh;
+  left: 11.75vw;
+}
+
+.fair-d h2 {
+  position: relative;
+  left: calc(-7.5vh + -8.5vw);
+  font-size: calc(0.9vh + 1vw);
+  letter-spacing: 0.3vw;
+  text-align: right;
+}
+
+.toxic-d h2 {
+  position: relative;
+  left: calc(-7vh + -7.65vw);
+  font-size: calc(0.9vh + 1vw);
+  letter-spacing: 0.3vw;
+  text-align: right;
+}
+
+.quality-d h2 {
+  position: relative;
+  left: calc(-5.2vh + -6.5vw);
+  font-size: calc(0.9vh + 1vw);
+  letter-spacing: 0.3vw;
+  text-align: right;
+}
+
+.organic-d h2 {
+  position: relative;
+  left: calc(-5.5vh + -6.8vw);
+  font-size: calc(0.9vh + 1vw);
+  letter-spacing: 0.3vw;
+  text-align: right;
+  }
+
+.vegan-d h2 {
+  position: relative;
+  left: calc(-4.2vh + -5.3vw);
+  font-size: calc(0.9vh + 1vw);
+  letter-spacing: 0.3vw;
+  text-align: right;
+}
+
+.info-p4 {
+  position: absolute;
+  top: 71.5vh;
+  left: 39vw;
+  background-color: rgba(61, 45, 57, 0.8);
+  width: 46vw;
+  height: 24.5vh;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.info-p4 h2 {
+  font-size: calc(1.25vh + 1.25vw);
+  letter-spacing: 0.12vw;
+  font-weight: 300;
+  color: white;
+  margin: 2%;
+  margin-left: 3%;
+}
+
+.model-photo-p5 {
+  position: absolute;
+  background-image: url(../Images/modellkille-d.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 50vw;
+  z-index: 900;
+}
+
+.dark-box-p5 {
+  background: #3D2D39;
+  width: 50vw;
+  height: 100vh;
+  bottom: 0;
 }
