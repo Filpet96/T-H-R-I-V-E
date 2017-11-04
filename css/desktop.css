@@ -341,8 +341,8 @@ span h1 {
 .animals {
   background-image: url(../Images/Bear.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 83%;
+  background-position: 35% 50%;
+  background-size: 82%;
   top: 38vh;
   left: 24.7vw;
 }
@@ -607,34 +607,86 @@ span h1 {
 }
 
 .fair-d {
+  background-image: url(../Images/fairtrade.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
   top: 19.35vh;
   left: 34.45vw;
 }
 
 .toxic-d {
+  background-image: url(../Images/toxic.png);
+  background-repeat: no-repeat;
+  background-position: 50% 63%;
+  background-size: 85%;
   top: 30.75vh;
   left: 29.25vw;
 }
 
 .quality-d {
+  background-image: url(../Images/quality.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 63%;
   top: 42.3vh;
   left: 23.4vw;
 }
 
 .organic-d {
+  background-image: url(../Images/Organic.png);
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  background-size: 86%;
   top: 53.75vh;
   left: 18vw;
 }
 
-.vegan-d {
+.vegan-d {background-image: url(../Images/vegan.png);
+background-repeat: no-repeat;
+background-position: 60% 30%;
+background-size: 70%;
   top: 66vh;
   left: 11.75vw;
 }
 
-.fair-d h2, .toxic-d h2, .quality-d h2, .organic-d h2, .vegan-d h2 {
+.fair-d h2 {
   position: relative;
-  left: calc(-4vh + -5vw);
+  left: calc(-7.5vh + -8.5vw);
   font-size: calc(0.9vh + 1vw);
   letter-spacing: 0.3vw;
   text-align: right;
+}
+
+.toxic-d h2 {
+  position: relative;
+  left: calc(-7vh + -7.65vw);
+  font-size: calc(0.9vh + 1vw);
+  letter-spacing: 0.3vw;
+  text-align: right;
+}
+
+.quality-d h2 {
+  position: relative;
+  left: calc(-5.2vh + -6.5vw);
+  font-size: calc(0.9vh + 1vw);
+  letter-spacing: 0.3vw;
+  text-align: right;
+}
+
+.organic-d h2 {
+  position: relative;
+  left: calc(-5.5vh + -6.8vw);
+  font-size: calc(0.9vh + 1vw);
+  letter-spacing: 0.3vw;
+  text-align: right;
+  }
+
+.vegan-d h2 {
+  position: relative;
+  left: calc(-4.2vh + -5.3vw);
+  font-size: calc(0.9vh + 1vw);
+  letter-spacing: 0.3vw;
+  text-align: right;
+
 }
