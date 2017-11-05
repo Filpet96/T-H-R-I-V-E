@@ -383,7 +383,7 @@ text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
     z-index: 1;
 
   }
-  .fashion {
+  .title {
     color: #F5A623;
     position: absolute;
     left: 55px;
@@ -400,14 +400,14 @@ top: 460px;
     top: 132.26666666666668vw;
     z-index: 1;
   }
-  .blocktext {
+  .text {
     color: #121212;
     position: absolute;
     left: 12.533333333333333vw;
     top: 138.93333333333334vw;
     font-family: 'Muli', sans-serif;
     font-size: 19px;
-    z-index: 1;
+    z-index: 3;
     width: 63.2vw;
     height: 19.2vw;
     line-height: normal;
