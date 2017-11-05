@@ -136,6 +136,10 @@ and (max-device-width : 867px) {
     left: 16vw;
     font-family: 'Muli', sans-serif;
     z-index: 5;
+    -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0) scale(1.0, 1.0);
+      transform: translateZ(0);
+  font-smoothing: antialiased !important;
   }
   .planetiphone {
     position: absolute;
@@ -394,6 +398,9 @@ top: 460px;
     z-index: 3;
   line-height: normal;
   margin: 0;
+  width: 213px;
+height: 32px;
+  text-align: center;
   }
   .textblock{
     position: absolute;
