@@ -510,6 +510,12 @@ height: 32px;
     position: absolute;
     left: 24px;
   top: 141px;
+  -webkit-animation-duration: 3.6s;
+            animation-duration: 3.6s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            
+            animation-iteration-count: infinite;
   }
   .visitstore {
     position: absolute;
