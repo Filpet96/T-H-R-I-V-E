@@ -126,7 +126,7 @@ and (max-device-width : 867px) {
   .imagetext h1 {
     position: absolute;
     margin: 0;
-    top: 555px;
+    top: 148vw;
     color: #121212;
     line-height: 5.6vw;
     font-size: 4.533333333333333vw;
@@ -143,19 +143,19 @@ and (max-device-width : 867px) {
   }
   .planetiphone {
     position: absolute;
-    top: 286px;
+    top: 76.26666666666667vw;
     left: 13.333333333333334vw;
 
   }
 
   .peopleiphone {
     position: absolute;
-    top: 372px;
+    top: 99.2vw;
     left: 13.333333333333334vw;
   }
   .animalsiphone {
     position: absolute;
-    top: 463px;
+    top: 123.46666666666667vw;
     left: 11.733333333333333vw
   }
   .gradient02 {
@@ -189,20 +189,18 @@ and (max-device-width : 867px) {
   }
   .topleftriangle{
     position: absolute;
-
     left: 0;
     z-index: 2;
   }
-
   .quote h1 {
   position: absolute;
   color: #E6E7E4;
   margin: 0;
   font-weight: bold;
   text-align: left;
-  font-size: 25px;
-  left: 62px;
-  top: 209px;
+  font-size: 6.666666666666667vw;
+  left: 16.533333333333335vw;
+  top: 55.733333333333334vw;
   font-family: 'Muli', sans-serif;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   -webkit-backface-visibility: hidden;
@@ -211,15 +209,15 @@ and (max-device-width : 867px) {
 font-smoothing: antialiased !important;
   }
   .cycletext h1 {
-    top: 626px;
+    top: 166.93333333333334vw;
     margin: 0;
     position: absolute;
     color: #121212;
-    font-size: 19px;
+    font-size: 5.066666666666666vw;
     font-weight: bold;
-    left: 128px;
+    left: 34.13333333333333vw;
     font-family: 'Muli', sans-serif;
-    line-height: 24px;
+    line-height: 6.4vw;
     z-index: 5;
   }
 
@@ -280,6 +278,10 @@ top: 78px;
     color: #FFFFFF;
 text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
     margin: 0;
+    -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0) scale(1.0, 1.0);
+      transform: translateZ(0);
+      font-smoothing: antialiased !important;
   }
   .FRIENDLY h1 {
     position: absolute;
@@ -291,6 +293,10 @@ top: 116px;
     color: #FFFFFF;
 text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
     margin: 0;
+    -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0) scale(1.0, 1.0);
+      transform: translateZ(0);
+      font-smoothing: antialiased !important;
   }
   .MATERIALS h1 {
     position: absolute;
@@ -302,6 +308,10 @@ top: 154px;
     color: #FFFFFF;
 text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
     margin: 0;
+    -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0) scale(1.0, 1.0);
+      transform: translateZ(0);
+      font-smoothing: antialiased !important;
   }
   .organiccotton03 h1{
     position: absolute;
@@ -514,7 +524,7 @@ height: 32px;
             animation-duration: 3.6s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
-            
+
             animation-iteration-count: infinite;
   }
   .visitstore {
