@@ -29,7 +29,7 @@
 
       // first animation
       if (index == 1 && nextIndex == 2) {
-        $isAnimatedSecond.addClass('animated fadeInUpBig');
+        $isAnimatedSecond.addClass('animated fadeInLeft');
         $isAnimatedSecond.eq(0).css('animation-delay', '.4s');
         $isAnimatedSecond.eq(1).css('animation-delay', '.6s');
         $isAnimatedSecond.eq(2).css('animation-delay', '.9s');
