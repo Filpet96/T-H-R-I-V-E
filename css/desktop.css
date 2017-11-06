@@ -251,8 +251,8 @@ span {
   background-color: #3D2D39;
   color: white;
   z-index: 10;
-  width: calc(4.5vh + 3.2vw);
-  height: calc(4.5vh + 3.2vw);
+  width: calc(3.6vh + 2.6vw);
+  height: calc(3.6vh + 2.6vw);
   border-radius: 100px;
   border: 2px white solid;
 }
@@ -325,15 +325,25 @@ span {
   border-bottom: 1px solid white;
 }
 
-.beige-background-p3 {
+.background-p3 {
   position: absolute;
-  background-color: #DED2C6;
+  background-image: url(../Images/cotton-d.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100%;
   width: 100%;
   z-index: 0;
+}
+
+.background-fade-p3 {
+  background: rgba(48, 56, 61, 0.6);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.44;
 }
 
 .model-photo-p4 {
@@ -358,24 +368,16 @@ span {
   width: 0px;
   height: 0px;
   z-index: 1;
-  border-bottom: 40vh solid #3D2D39;
-  border-right: 50vw solid transparent;
-}
-
-.dark-box-bottom {
-  position: absolute;
-  background: #3D2D39;
-  width: 100%;
-  height: 60vh;
-  bottom: 0;
+  border-bottom: 100vh solid #30383D;
+  border-right: 100vw solid transparent;
 }
 
 .p03tyg-desktop {
   position: absolute;
-  width: 21vw;
-  height: 20vh;
-  top: 21vh;
-  left: 3vw;
+  width: 28.3vw;
+  height: 25.3vh;
+  top: 33vh;
+  left: 4.7vw;
   z-index: 2;
 }
 
@@ -393,6 +395,7 @@ span {
   left: 58vw;
   color: white;
   z-index: 10;
+  text-shadow: 0px 2px 4px #23252C;
 }
 
 .planet-friendly-materials h1 {
@@ -412,24 +415,52 @@ span {
   margin: 0;
 }
 
-.polyester {
-  top: 35.5vh;
+.small-solid-circle-p3 {
+  position: absolute;
+  background-color: #30383D;
+  color: white;
+  z-index: 10;
+  width: calc(3.6vh + 2.6vw);
+  height: calc(3.6vh + 2.6vw);
+  border-radius: 100px;
+  border: 3px white solid;
+}
+
+.cotton {
+  background-image: url(../Images/cotton-icon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: white;
+  background-size: 70%;
+  top: 53.3vh;
   left: 54vw;
 }
 
 .tencel {
-  top: 35.5vh;
-  left: 66.2vw;
+  background-image: url(../Images/tencel-icon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 61%;
+  top: 63.6vh;
+  left: 64.4vw;
 }
 
-.cotton {
-  top: 35.5vh;
-  left: 78.5vw;
+.polyester {
+  background-image: url(../Images/bottle-icon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 34%;
+  top: 73.6vh;
+  left: 74.5vw;
 }
 
 .lenzing {
-  top: 35.5vh;
-  left: 90vw;
+  background-image: url(../Images/lenzing-icon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 45%;
+  top: 83.4vh;
+  left: 84vw;
 }
 
 .triangle4 {
@@ -447,12 +478,15 @@ span {
   border-right: 50vw solid transparent;
 }
 
-.line-polyester {
+.line-cotton {
   position: absolute;
-  top: 40vh;
+  top: 60.4vh;
   left: 0vw;
-  width: 57.2vw;
-  height: 11.6vh;
+  width: 53.5vw;
+  height: 6.6vh;
+  -webkit-transform: skew(-38deg);
+     -moz-transform: skew(-38deg);
+       -o-transform: skew(-38deg);
   border-bottom: 1px solid white;
   border-right: 1px solid white;
   display: flex;
@@ -464,10 +498,13 @@ span {
 
 .line-tencel {
   position: absolute;
-  top: 40vh;
+  top: 70.5vh;
   left: 0vw;
-  width: 69.4vw;
-  height: 25vh;
+  width: 63.5vw;
+  height: 5.8vh;
+  -webkit-transform: skew(-42deg);
+	   -moz-transform: skew(-42deg);
+	     -o-transform: skew(-42deg);
   border-bottom: 1px solid white;
   border-right: 1px solid white;
   display: flex;
@@ -477,12 +514,15 @@ span {
   z-index: 4;
 }
 
-.line-cotton {
+.line-polyester {
   position: absolute;
-  top: 40vh;
+  top: 80vh;
   left: 0vw;
-  width: 82vw;
-  height: 39.8vh;
+  width: 74vw;
+  height: 5.6vh;
+  -webkit-transform: skew(-46deg);
+	   -moz-transform: skew(-46deg);
+	     -o-transform: skew(-46deg);
   border-bottom: 1px solid white;
   border-right: 1px solid white;
   display: flex;
@@ -494,10 +534,13 @@ span {
 
 .line-lenzing {
   position: absolute;
-  top: 40vh;
-  left: 0vw;
-  width: 93.2vw;
-  height: 54vh;
+  top: 89vh;
+  left: 0;
+  width: 83vw;
+  height: 5.8vh;
+  -webkit-transform: skew(-50deg);
+	   -moz-transform: skew(-50deg);
+	     -o-transform: skew(-50deg);
   border-bottom: 1px solid white;
   border-right: 1px solid white;
   display: flex;
@@ -507,16 +550,40 @@ span {
   z-index: 2;
 }
 
-.line-polyester h2, .line-tencel h2, .line-cotton h2, .line-lenzing h2 {
-  font-size: calc(1.46vh + 1.47vw);
+.line-cotton h2, .line-tencel h2, .line-polyester h2, .line-lenzing h2 {
+  font-size: font-size: calc(0.97vh + 0.98vw);
   color: white;
   justify-content: flex-end;
-  margin-right: 1.7%;
+  margin-right: 3%;
   margin-bottom: 1%;
   letter-spacing: 0.3vw;
 }
 
-.small-solid-circle-p3 {
+.line-cotton h2 {
+  -webkit-transform: skew(38deg);
+     -moz-transform: skew(38deg);
+       -o-transform: skew(38deg);
+}
+
+.line-tencel h2 {
+  -webkit-transform: skew(42deg);
+     -moz-transform: skew(42deg);
+       -o-transform: skew(42deg);
+}
+
+.line-polyester h2 {
+  -webkit-transform: skew(46deg);
+     -moz-transform: skew(46deg);
+       -o-transform: skew(46deg);
+}
+
+.line-lenzing h2 {
+  -webkit-transform: skew(50deg);
+	   -moz-transform: skew(50deg);
+	     -o-transform: skew(50deg);
+}
+
+.small-solid-circle-p4 {
   position: absolute;
   background-color: #3D2D39;
   color: white;
