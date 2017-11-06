@@ -551,7 +551,7 @@ span {
 }
 
 .line-cotton h2, .line-tencel h2, .line-polyester h2, .line-lenzing h2 {
-  font-size: font-size: calc(0.97vh + 0.98vw);
+  font-size: calc(0.97vh + 0.98vw);
   color: white;
   justify-content: flex-end;
   margin-right: 3%;
