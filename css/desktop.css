@@ -227,6 +227,7 @@
   font-size: calc(1.95vh + 1.95vw);
   font-weight: bold;
   letter-spacing: 0.3vw;
+  text-align: center;
   margin: 0;
 }
 
@@ -250,8 +251,8 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 75%;
-  top: 25.6vh;
-  left: 30.9vw;
+  top: 26.6vh;
+  left: 31.5vw;
 }
 
 .animals {
@@ -259,8 +260,8 @@
   background-repeat: no-repeat;
   background-position: 35% 50%;
   background-size: 82%;
-  top: 38vh;
-  left: 24.7vw;
+  top: 39vh;
+  left: 25.5vw;
 }
 
 .environment {
@@ -268,35 +269,39 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 85%;
-  top: 50vh;
-  left: 18.6vw;
+  top: 51.5vh;
+  left: 19.4vw;
 }
 
 .people h2, .animals h2, .environment h2 {
   position: relative;
-  top: 0;
-  left: 7.6vw;
-  font-size: calc(1.45vh + 1.45vw);
+  top: 1.2vh;
+  left: 7.2vw;
+  letter-spacing: 0.3vw;
+  font-size: calc(0.7vh + 0.9vw);
 }
 
 .info-p2 {
   position: absolute;
   top: 76vh;
-  left: 15vw;
+  left: 17.5vw;
   color: black;
   z-index: 10;
 }
 
 .info-p2 h1 {
-  font-size: calc(1.4vh + 1.4vw);
+  font-size: calc(0.95vh + 1vw);
   letter-spacing: 0.2vw;
   font-weight: bolder;
+  letter-spacing: 0.14vw;
   margin: 0;
 }
 
 .info-p2 h2 {
+  font-size: 18px;
   font-size: calc(1.25vh + 1.25vw);
-  letter-spacing: 0.12vw;
+  letter-spacing: 0.14vw;
+  font-size: calc(0.7vh + 0.75vw);
   font-weight: 300;
   margin: 0;
   margin-top: 2%;
