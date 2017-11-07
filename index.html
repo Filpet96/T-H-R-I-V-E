@@ -110,8 +110,29 @@
       <div class="section" id="section2">
         <!-- DESKTOP -->
         <div class="desktop">
-          <div class="background-p3"></div><!-- Background Images -->
-          <div class="background-fade-p3"></div>
+          <ul id="slider2" class="images-list">
+            <li data-index="0" style="background-image: url(./Images/cotton-d.png" </li>
+              <li data-index="1" style="background-image: url(./Images/LENZIN03.jpg)"></li>
+              <li data-index="2" style="background-image: url(./Images/TENCEL03.jpg)"></li>
+              <li data-index="3" style="background-image: url(./Images/POLYESTER03.jpg)"></li>
+          </ul>
+
+          <ul class="controls">
+            <li class="dot1 active">
+              <div class="small-solid-circle-p3 cotton desktop"></div>
+            </li>
+            <li class="dot2">
+              <div class="small-solid-circle-p3 lenzing desktop"></div>
+            </li>
+            <li class="dot3">
+              <div class="small-solid-circle-p3 tencel desktop"></div>
+            </li>
+            <li class="dot4">
+              <div class="small-solid-circle-p3 polyester desktop"></div>
+            </li>
+          </ul>
+          <!-- Background Images -->
+          <!-- <div class="background-fade-p3"></div> -->
           <div class="triangle3 dark3"></div>
           <!-- Dark triangle left -->
           <div class="line-black"></div>
@@ -120,25 +141,25 @@
             <h1>MATERIALS</h1></div>
           <img class="p03tyg-desktop desktop" src="./SVG/Page03/tyg.svg" alt="">
           <!-- /image of cloth -->
-          <div class="small-solid-circle-p3 cotton desktop"></div>
+          <!-- <div class="small-solid-circle-p3 cotton desktop"></div>
           <div class="small-solid-circle-p3 tencel desktop"></div>
           <div class="small-solid-circle-p3 polyester desktop"></div>
-          <div class="small-solid-circle-p3 lenzing desktop"></div>
+          <div class="small-solid-circle-p3 lenzing desktop"></div> -->
           <div class="line-polyester flickering">
-            <h2>RECYCLED POLYESTER</h2></div>
-          <div class="line-tencel flickering">
             <h2>TENCEL(LYOCELL)</h2></div>
+          <div class="line-tencel flickering">
+            <h2>LENZING MODAL</h2></div>
           <div class="line-cotton flickering">
             <h2>ORGANIC COTTON</h2></div>
           <div class="line-lenzing flickering">
-            <h2>LENZING MODAL</h2></div>
+            <h2>RECYCLED POLYESTER</h2></div>
         </div>
         <!-- /DESKTOP END -->
         <!-- MOBILE -->
         <img class="p03darktriangle iphone" src="./SVG/Page03/Darktriangle.svg" alt="">
         <img class="p03thrivelogo iphone" src="./SVG/Page03/THRIVELOGO.svg" alt="">
         <img class="p03logotext iphone" src="./SVG/Page03/THRIVETEXT.svg" alt="">
-        <img src="./SVG/Page03/dark-text-background.svg" alt="" class="dark-text-background">
+        <img src="./SVG/Page03/dark-text-background.svg" alt="" class="dark-text-background iphone">
         <img class="p03darkbottom iphone" src="./SVG/Page03/Darkbottom.svg" alt="">
         <!-- SLIDESHOW -->
         <ul id="slider1" class="images-list iphone">
@@ -271,6 +292,27 @@
 
 
   $('#slider1').slider();
+</script>
+<script>
+  $.fn.slider = function() {
+    var $this = this;
+    var $controls = $this.nextAll('.controls').first();
+    var index;
+
+    $this.find('li:gt(0)').hide();
+    setInterval(function() {
+        $this.find('li:first-child').fadeOut(3000)
+          .next('li').fadeIn(3000)
+          .end().appendTo($this);
+        var index = $this.find('li:first-child').data('index');
+        $controls.find('li.active').removeClass('active');
+        $controls.find('li').eq(index).addClass('active');
+      },
+      4000);
+  };
+
+
+  $('#slider2').slider();
 </script>
 <script src="./Javascript/Fullpageanimations.js" charset="utf-8"></script>
 
