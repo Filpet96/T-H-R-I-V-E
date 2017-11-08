@@ -736,7 +736,6 @@ ul {
   background-position: center;
   height: 100vh;
   width: 50vw;
-  z-index: 900;
 }
 
 .dark-box-p5 {
@@ -761,4 +760,12 @@ ul {
   line-height: normal;
   text-align: left;
   margin: 0;
+}
+
+.triangle-logo-p5 {
+  position: absolute;
+  width: 25.6vw;
+  top: 15.4vh;
+  left: 62.3vw;
+  z-index: 4;
 }
