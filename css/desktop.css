@@ -507,7 +507,7 @@ ul {
   width: 0px;
   height: 0px;
   z-index: 1;
-  border-top: 100vh solid #3D2D39;
+  border-top: 100vh solid #30383D;
   border-right: 50vw solid transparent;
 }
 
@@ -618,7 +618,7 @@ ul {
 
 .small-solid-circle-p4 {
   position: absolute;
-  background-color: #3D2D39;
+  background-color: #30383D;
   color: white;
   z-index: 10;
   width: calc(4.1vh + 3vw);
@@ -672,66 +672,60 @@ ul {
   left: 11.75vw;
 }
 
+.fair-d h2, .toxic-d h2, .quality-d h2, .organic-d h2, .vegan-d h2 {
+  letter-spacing: 0.3vw;
+  font-size: calc(0.7vh + 0.9vw);
+}
+
 .fair-d h2 {
   position: relative;
-  left: calc(-7.5vh + -8.5vw);
-  font-size: calc(0.9vh + 1vw);
-  letter-spacing: 0.3vw;
-  text-align: right;
+  top: .8vh;
+  left: calc(-6.7vh + -8vw);
 }
 
 .toxic-d h2 {
   position: relative;
-  left: calc(-7vh + -7.65vw);
-  font-size: calc(0.9vh + 1vw);
-  letter-spacing: 0.3vw;
-  text-align: right;
+  top: .8vh;
+  left: calc(-6vh + -7.4vw);
 }
 
 .quality-d h2 {
   position: relative;
-  left: calc(-5.2vh + -6.5vw);
-  font-size: calc(0.9vh + 1vw);
-  letter-spacing: 0.3vw;
-  text-align: right;
+  top: .8vh;
+  left: calc(-4.9vh + -6vw);
 }
 
 .organic-d h2 {
   position: relative;
-  left: calc(-5.5vh + -6.8vw);
-  font-size: calc(0.9vh + 1vw);
-  letter-spacing: 0.3vw;
-  text-align: right;
+  top: .8vh;
+  left: calc(-5vh + -6.4vw);
 }
 
 .vegan-d h2 {
   position: relative;
-  left: calc(-4.2vh + -5.3vw);
-  font-size: calc(0.9vh + 1vw);
-  letter-spacing: 0.3vw;
-  text-align: right;
+  top: .8vh;
+  left: calc(-4vh + -4.9vw);
 }
 
 .info-p4 {
   position: absolute;
   top: 71.5vh;
   left: 39vw;
-  background-color: rgba(61, 45, 57, 0.8);
+  background-color: rgba(48, 56, 61, 0.8);
   width: 46vw;
   height: 24.5vh;
   border: 1px solid white;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 .info-p4 h2 {
-  font-size: calc(1.25vh + 1.25vw);
-  letter-spacing: 0.12vw;
-  font-weight: 300;
+  letter-spacing: 0.14vw;
+  font-size: calc(0.7vh + 0.9vw);
   color: white;
-  margin: 2%;
-  margin-left: 3%;
+  font-weight: 300;
+  padding: 4.5%;
+  margin: 0;
 }
 
 .model-photo-p5 {
@@ -750,4 +744,21 @@ ul {
   width: 50vw;
   height: 100vh;
   bottom: 0;
+}
+
+.quote-p4 {
+  position: absolute;
+  top: 5vh;
+  left: 4vw;
+  color: white;
+  z-index: 10;
+}
+
+.quote-p4 h1 {
+  letter-spacing: 0.185vw;
+  font-size: calc(1.4vh + 1.5vw);
+  font-weight: bold;
+  line-height: normal;
+  text-align: left;
+  margin: 0;
 }
