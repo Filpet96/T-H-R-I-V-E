@@ -715,8 +715,7 @@ ul {
   width: 46vw;
   height: 24.5vh;
   border: 1px solid white;
-  display: flex;
-  flex-direction: column;
+  padding: 1%;
 }
 
 .info-p4 h2 {
@@ -724,25 +723,7 @@ ul {
   font-size: calc(0.7vh + 0.9vw);
   color: white;
   font-weight: 300;
-  padding: 4.5%;
   margin: 0;
-}
-
-.model-photo-p5 {
-  position: absolute;
-  background-image: url(../Images/modellkille-d.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 50vw;
-}
-
-.dark-box-p5 {
-  background: #3D2D39;
-  width: 50vw;
-  height: 100vh;
-  bottom: 0;
 }
 
 .quote-p4 {
@@ -762,10 +743,77 @@ ul {
   margin: 0;
 }
 
+.container-p5-desktop {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.model-photo-p5 {
+  background-image: url(../Images/modellkille-d.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 50vw;
+}
+
+.dark-box-p5 {
+  display: flex;
+  background-color#3D2D39;
+  width: 50vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
 .triangle-logo-p5 {
-  position: absolute;
+  background-image: url(../Images/Shape.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
   width: 25.6vw;
-  top: 15.4vh;
-  left: 62.3vw;
-  z-index: 4;
+  height: 31vh;
+  margin-top: 15.4vh;
+  z-index: 900;
+}
+
+.thrive-text-logo-p5 {
+  margin-top: 4vh;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.thrive-text-logo-p5 h1 {
+  margin: 0;
+  margin-top: 1vh;
+  font-size: calc(1.55vh + 1.68vw);
+  letter-spacing: calc(.201vh + .3vw);
+  font-weight: 300;
+}
+
+.thrive-text-logo-p5 h2 {
+  margin: 0;
+  margin-top: 0.2vh;
+  font-size: 13px;
+  font-size: calc(0.55vh + 0.5vw);
+  letter-spacing: calc(0.31vh + 0.31vw);
+  font-weight: 300;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.we-care-p5 {
+  margin-top: 11vh;
+}
+
+.we-care-p5 h2 {
+  letter-spacing: 0.14vw;
+  font-size: calc(0.97vh + 0.98vw);
+  font-weight: 300;
 }
