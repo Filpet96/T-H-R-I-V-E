@@ -862,7 +862,7 @@ ul {
   width: calc(2.4vh + 1.8vw);
   height: calc(2.4vh + 1.8vw);
   box-sizing: border-box;
-  border: 3px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 100px;
   transition: box-shadow .2s;
 }
