@@ -380,17 +380,6 @@ ul {
   opacity: 0.44;
 }
 
-.model-photo-p4 {
-  position: absolute;
-  background-image: url(../Images/model2_optim.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-}
-
 .triangle3 {
   position: absolute;
   top: 0;
@@ -494,6 +483,17 @@ ul {
   background-size: 45%;
   top: 63.6vh;
   left: 64.4vw;
+}
+
+.model-photo-p4 {
+  position: absolute;
+  background-image: url(../Images/model2_optim.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
 }
 
 .triangle4 {
@@ -864,12 +864,11 @@ ul {
   box-sizing: border-box;
   border: 3px solid #FFFFFF;
   border-radius: 100px;
-  transition: width .5s height .5s;
+  transition: box-shadow .2s;
 }
 
 .social-icon:hover {
-  width: calc(2.5vh + 2vw);
-  height: calc(2.5vh + 2vw);
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.65);
 }
 
 .social-icon a {
