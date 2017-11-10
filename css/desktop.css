@@ -761,7 +761,7 @@ ul {
 
 .dark-box-p5 {
   display: flex;
-  background-color#3D2D39;
+  background-color: #3D2D39;
   width: 50vw;
   height: 100vh;
   flex-direction: column;
@@ -828,6 +828,11 @@ ul {
   flex-direction: column;
   justify-content: center;
   display: flex;
+  transition: background 0.5s;
+}
+
+.visit-store:hover {
+  background: rgba(228, 228, 228, 0.75);
 }
 
 .visit-store h1 {
@@ -850,15 +855,25 @@ ul {
   height: 5vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .social-icon {
-  width: calc(2.4vh + 2.4vw);
-  height: calc(2.4vh + 2.4vw);
+  width: calc(2.4vh + 1.8vw);
+  height: calc(2.4vh + 1.8vw);
   box-sizing: border-box;
   border: 3px solid #FFFFFF;
   border-radius: 100px;
+  transition: width .5s height .5s;
+}
+
+.social-icon:hover {
+  width: calc(2.5vh + 2vw);
+  height: calc(2.5vh + 2vw);
+}
+
+.social-icon a {
+  display: flex;
 }
 
 .youtube {
@@ -871,8 +886,8 @@ ul {
 .facebook {
   background-image: url(../Images/facebook-icon.png);
   background-size: 52%;
-    background-repeat: no-repeat;
-    background-position: 47% 187%;
+  background-repeat: no-repeat;
+  background-position: 47% 187%;
 }
 
 .instagram {
@@ -880,4 +895,23 @@ ul {
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+a {
+  transition: color 0.5s;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #3D2D39;
+}
+a:active {
+    color: rgb(156, 156, 156);
 }
