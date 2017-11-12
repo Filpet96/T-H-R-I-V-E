@@ -356,7 +356,7 @@ ul {
 .controls {
   position: absolute;
   margin: 0;
-  z-index: 5;
+  z-index: 10;
 }
 
 .controls>li {
