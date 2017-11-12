@@ -360,7 +360,7 @@ ul {
 }
 
 .controls>li {
-  opacity: 0.5;
+  opacity: 1;
   transition: 0.5s;
   margin: 0;
 }
@@ -368,6 +368,94 @@ ul {
 .controls>li.active {
   opacity: 1;
   margin: 0;
+}
+
+.controls>li.small-solid-circle-p3.cotton.active {
+  background-image: url(../Images/cotton-p3-active.png);
+  background-color: white;
+  opacity: 1;
+  margin: 0;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.65);
+}
+
+.controls>li.small-solid-circle-p3.lenzing.active {
+  background-image: url(../Images/lenzing-p3-active.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 45%;
+  top: 63.6vh;
+  left: 64.4vw;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.65);
+}
+
+.controls>li.small-solid-circle-p3.tencel.active {
+  background-image: url(../Images/tencel-p3-active.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 61%;
+  top: 73.6vh;
+  left: 74.5vw;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.65);
+}
+
+.controls>li.small-solid-circle-p3.polyester.active {
+  background-image: url(../Images/bottle-p3-active.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 34%;
+  top: 83.4vh;
+  left: 84vw;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.65);
+}
+
+.small-solid-circle-p3 {
+  position: absolute;
+  background-color: #30383D;
+  color: white;
+  z-index: 10;
+  width: calc(3.6vh + 2.6vw);
+  height: calc(3.6vh + 2.6vw);
+  border-radius: 100px;
+  border: 3px white solid;
+}
+
+.cotton {
+  background-image: url(../Images/COTTON2icon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 70%;
+  top: 53.3vh;
+  left: 54vw;
+}
+
+.tencel {
+  background-image: url(../Images/tencel-icon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 61%;
+  top: 73.6vh;
+  left: 74.5vw;
+}
+
+.polyester {
+  background-image: url(../Images/bottle-icon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 34%;
+  top: 83.4vh;
+  left: 84vw;
+}
+
+.lenzing {
+  background-image: url(../Images/lenzing-icon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 45%;
+  top: 63.6vh;
+  left: 64.4vw;
 }
 
 .background-fade-p3 {
@@ -436,53 +524,6 @@ ul {
   letter-spacing: 0.3vw;
   text-align: center;
   margin: 0;
-}
-
-.small-solid-circle-p3 {
-  position: absolute;
-  background-color: #30383D;
-  color: white;
-  z-index: 10;
-  width: calc(3.6vh + 2.6vw);
-  height: calc(3.6vh + 2.6vw);
-  border-radius: 100px;
-  border: 3px white solid;
-}
-
-.cotton {
-  background-image: url(../Images/COTTON2icon.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 70%;
-  top: 53.3vh;
-  left: 54vw;
-}
-
-.tencel {
-  background-image: url(../Images/tencel-icon.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 61%;
-  top: 73.6vh;
-  left: 74.5vw;
-}
-
-.polyester {
-  background-image: url(../Images/bottle-icon.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 34%;
-  top: 83.4vh;
-  left: 84vw;
-}
-
-.lenzing {
-  background-image: url(../Images/lenzing-icon.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 45%;
-  top: 63.6vh;
-  left: 64.4vw;
 }
 
 .model-photo-p4 {
