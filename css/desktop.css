@@ -369,6 +369,10 @@ ul {
   opacity: 1;
   margin: 0;
 }
+.tapsymbol {
+  display: block;
+  margin-top: 1.5vw;
+}
 
 .background-fade-p3 {
   background: rgba(48, 56, 61, 0.6);
@@ -720,12 +724,17 @@ ul {
 
 .info-p4 h2 {
   letter-spacing: 0.14vw;
-  font-size: calc(0.7vh + 0.9vw);
+  font-size: calc(0.6vh + 0.8vw);
   color: white;
   font-weight: 300;
   margin: 0;
+  text-align: center;
 }
-
+h2.title1 {
+  font-size: calc(1.2vh + 1.4vw);
+  margin-bottom: 0.8vw;
+  text-align: center;
+}
 .quote-p4 {
   position: absolute;
   top: 5vh;
