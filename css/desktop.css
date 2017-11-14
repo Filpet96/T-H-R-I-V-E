@@ -379,7 +379,6 @@ ul {
   background-color: white;
   opacity: 1;
   margin: 0;
-  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.65);
 }
 
 .controls>li.small-solid-circle-p3.lenzing.active {
@@ -390,7 +389,6 @@ ul {
   background-size: 45%;
   top: 63.6vh;
   left: 64.4vw;
-  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.65);
 }
 
 .controls>li.small-solid-circle-p3.tencel.active {
@@ -401,7 +399,6 @@ ul {
   background-size: 61%;
   top: 73.6vh;
   left: 74.5vw;
-  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.65);
 }
 
 .controls>li.small-solid-circle-p3.polyester.active {
@@ -412,7 +409,6 @@ ul {
   background-size: 34%;
   top: 83.4vh;
   left: 84vw;
-  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.65);
 }
 
 .small-solid-circle-p3 {
@@ -758,7 +754,7 @@ ul {
   left: 39vw;
   background-color: rgba(48, 56, 61, 0.8);
   width: 46vw;
-  height: 24.5vh;
+  height: 20vh;
   border: 1px solid white;
   padding: 1%;
 }
@@ -769,8 +765,9 @@ ul {
   color: white;
   font-weight: 300;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
+
 h2.title1 {
   font-size: calc(1.2vh + 1.4vw);
   margin-bottom: 0.8vw;
