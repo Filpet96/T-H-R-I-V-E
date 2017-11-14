@@ -750,11 +750,10 @@ ul {
 
 .info-p4 {
   position: absolute;
-  top: 71.5vh;
+  bottom: 10vh;
   left: 39vw;
   background-color: rgba(48, 56, 61, 0.8);
   width: 46vw;
-  height: 20vh;
   border: 1px solid white;
   padding: 1%;
 }
@@ -773,6 +772,7 @@ h2.title1 {
   margin-bottom: 0.8vw;
   text-align: center;
 }
+
 .quote-p4 {
   position: absolute;
   top: 5vh;
@@ -875,11 +875,16 @@ h2.title1 {
   flex-direction: column;
   justify-content: center;
   display: flex;
-  transition: background 0.5s;
+  transition: background 1s;
 }
 
 .visit-store:hover {
-  background: rgba(228, 228, 228, 0.75);
+  background: white;
+  cursor: pointer;
+}
+
+.visit-store:hover a {
+  color: #3D2D39;
 }
 
 .visit-store h1 {
@@ -944,20 +949,21 @@ h2.title1 {
 }
 
 a {
-  transition: color 0.5s;
+  transition: color .5s;
 }
 
 a:link {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 a:visited {
-    color: white;
+  color: white;
 }
 
 a:hover {
-    color: #3D2D39;
+  color: #3D2D39;
 }
+
 a:active {
-    color: rgb(156, 156, 156);
+  color: rgb(156, 156, 156);
 }
