@@ -213,7 +213,24 @@
           <div class="quote-p4">
             <h1 class="flickering">ALL OUR CLOTHES ARE<br>CERTIFIED WITH THESES<br>STANDARDS</h1></div>
 
-          <div class="section-link small-solid-circle-p4 fair-d">
+          <!-- /Var tvungen att lägga ikonerna i en div för att det skulle funka -->
+          <div id="icons-menu">
+            <div class="section-link small-solid-circle-p4 fair-d" onclick="toggleClass(this)">
+              <h2><nobr>FAIR-TRADE</nobr></h2></div>
+            <div class="section-link small-solid-circle-p4 toxic-d" onclick="toggleClass(this)">
+              <h2>TOXICFREE</h2></div>
+            <div class="section-link small-solid-circle-p4 quality-d" onclick="toggleClass(this)">
+              <h2>QUALITY</h2></div>
+            <div class="section-link small-solid-circle-p4 organic-d" onclick="toggleClass(this)">
+              <h2>ORGANIC</h2></div>
+            <div class="section-link small-solid-circle-p4 vegan-d" onclick="toggleClass(this)">
+              <h2>VEGAN</h2></div>
+          </div><!-- /icons-menu -->
+
+
+          <!-- /Så här såg det ut innan jag la in ikon-funktionen -->
+
+          <!-- <div class="section-link small-solid-circle-p4 fair-d">
             <h2><nobr>FAIR-TRADE</nobr></h2></div>
           <div class="section-link small-solid-circle-p4 toxic-d">
             <h2>TOXICFREE</h2></div>
@@ -222,7 +239,8 @@
           <div class="section-link small-solid-circle-p4 organic-d">
             <h2>ORGANIC</h2></div>
           <div class="section-link small-solid-circle-p4 vegan-d">
-            <h2>VEGAN</h2></div>
+            <h2>VEGAN</h2></div> -->
+
           <div class="section-display active info-p4">
             <h2 class="title1">Conscious fashion</h2>
             <h2 class="text1">Our goal is to help the customer understand the<br>
@@ -329,6 +347,27 @@
 
   $('#slider2').slider();
 </script>
+
+<script>
+function toggleClass(div) {
+
+  var kids = document.getElementById('icons-menu').children;
+
+    console.log(kids);
+
+  for (var i = 0; i < kids.length; i++) {
+
+    if (kids[i].classList.contains('active')) {
+    kids[i].classList.remove('active')
+    }
+
+    div.classList.add('active');
+
+  }
+}//end of function
+
+</script>
+
 <script src="./Javascript/Fullpageanimations.js" charset="utf-8"></script>
 
 </html>

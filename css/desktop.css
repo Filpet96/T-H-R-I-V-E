@@ -677,6 +677,11 @@ ul {
   left: 34.45vw;
 }
 
+.fair-d.active {
+  background-image: url(../Images/fairtrade-active.png);
+  background-color: white;
+}
+
 .toxic-d {
   background-image: url(../Images/toxic.png);
   background-repeat: no-repeat;
@@ -684,6 +689,11 @@ ul {
   background-size: 85%;
   top: 30.75vh;
   left: 29.25vw;
+}
+
+.toxic-d.active {
+  background-image: url(../Images/toxic-active.png);
+  background-color: white;
 }
 
 .quality-d {
@@ -695,6 +705,11 @@ ul {
   left: 23.4vw;
 }
 
+.quality-d.active {
+  background-image: url(../Images/quality-active.png);
+  background-color: white;
+}
+
 .organic-d {
   background-image: url(../Images/Organic.png);
   background-repeat: no-repeat;
@@ -704,6 +719,11 @@ ul {
   left: 18vw;
 }
 
+.organic-d.active {
+  background-image: url(../Images/organic-active.png);
+  background-color: white;
+}
+
 .vegan-d {
   background-image: url(../Images/vegan.png);
   background-repeat: no-repeat;
@@ -711,6 +731,11 @@ ul {
   background-size: 70%;
   top: 66vh;
   left: 11.75vw;
+}
+
+.vegan-d.active {
+  background-image: url(../Images/vegan-active.png);
+  background-color: white;
 }
 
 .fair-d h2, .toxic-d h2, .quality-d h2, .organic-d h2, .vegan-d h2 {
