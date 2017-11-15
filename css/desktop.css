@@ -171,7 +171,6 @@
     height: 100vh;
     background-color: #3D2D39;
   }
-}
 
 .triangle2 {
   position: absolute;
@@ -966,4 +965,17 @@ a:hover {
 
 a:active {
   color: rgb(156, 156, 156);
+}
+
+.section-link {
+  -webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-ms-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+}
+.section-link.clicked{
+  filter: brightness(0.6);
+}
+
 }

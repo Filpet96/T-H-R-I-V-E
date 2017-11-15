@@ -87,24 +87,24 @@ $(document).ready(function() {
   // more than one display div. You'll just get the content from the object in the
   // array that has the same index as the image (within a different array)
   var data = [{
-    title: "Fair trade",
-    text: "The process from start to finish is fair to all parties. Our collections are free from inhuman working conditions under slave wages for those who manufacture our clothes."
+    title: "NOT WORKING",
+    text: "NOT WORKING"
    },
    {
-    title: "Toxicfree",
-    text: "Our collections are made without chemicals, pesticides and toxic dyeing processes. We have a 100% poison and chemical free store! Great for both environment, employees and our customers."
+    title: "NOT WORKING",
+    text: "NOT WORKING"
    },
    {
     title: "Fair Trade",
-    text: "The process from start to finish is fair to all parties. Our collections are free from inhuman working conditions under slave wages for those who manufacture our clothes."
+    text: "The process from start to finish is fair to all parties.<br><br>Our collections are free from inhuman working<br>conditions under slave wages for those who<br>manufacture our clothes."
    },
    {
     title: "Toxicfree",
-    text: "Our collections are made without chemicals, pesticides and toxic dyeing processes. We have a 100% poison and chemical free store! Great for both environment, employees and our customers."
+    text: "Our collections are made without chemicals,<br>pesticides and toxic dyeing processes.<br><br>We have a 100% poison and chemical free store!<br>Great for both environment, employees and our<br>customers."
    },
    {
     title: "Quality",
-    text: "We carefully sort out the best in organic, fair and sustainable fashion. A carefully selected assortment in small collections from some of the most innovative and conscious designers, manufacturers and brands right now."
+    text: "We carefully sort out the best in organic, fair and<br>sustainable fashion.<br><br>A carefully selected assortment in small collections<br>from some of the most innovative and conscious<br>designers, manufacturers and brands right now."
    },
    {
     title: "Organic",
@@ -128,6 +128,11 @@ $(document).ready(function() {
    // extract the content from the array of objects that correspond
    // to the index of the image that was clicked.
    $This = $(this)
+
+$imgs.removeClass("clicked") ;
+  $This.addClass("clicked");
+
+   
    $(".title1", $outputDiv).animate({
     opacity: 0
    }, function() {
