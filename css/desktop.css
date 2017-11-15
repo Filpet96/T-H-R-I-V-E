@@ -749,12 +749,13 @@ ul {
 
 .info-p4 {
   position: absolute;
-  bottom: 10vh;
+  top: 69vh;
   left: 39vw;
   background-color: rgba(48, 56, 61, 0.8);
   width: 46vw;
+  height: 24.5vh;
   border: 1px solid white;
-  padding: 1%;
+  padding: 1%
 }
 
 .info-p4 h2 {
@@ -763,7 +764,7 @@ ul {
   color: white;
   font-weight: 300;
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
 
 h2.title1 {
