@@ -757,7 +757,6 @@ ul {
   width: 46vw;
   height: 24.5vh;
   border: 1px solid white;
-  padding: 1%;
   text-align: center;
 }
 
@@ -767,14 +766,25 @@ ul {
   color: white;
   font-weight: 300;
   margin: 0;
-  t
+  padding-top: 1vh;
 }
 
 h2.title1 {
   font-size: calc(1.2vh + 1.4vw);
+  margin: 0;
+  padding-top: 0.5vh;
+  padding-bottom: 1vh;
+  text-align: center;
+  color: #30383D;
+  background-color: white;
+}
+
+/*ORIGINAL*/
+/*h2.title1 {
+  font-size: calc(1.2vh + 1.4vw);
   margin-bottom: 0.8vw;
   text-align: center;
-}
+}*/
 
 .quote-p4 {
   position: absolute;
