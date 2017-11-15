@@ -755,7 +755,8 @@ ul {
   width: 46vw;
   height: 24.5vh;
   border: 1px solid white;
-  padding: 1%
+  padding: 1%;
+  text-align: center;
 }
 
 .info-p4 h2 {
@@ -764,7 +765,7 @@ ul {
   color: white;
   font-weight: 300;
   margin: 0;
-  text-align: left;
+  t
 }
 
 h2.title1 {
@@ -780,7 +781,10 @@ h2.title1 {
   color: white;
   z-index: 10;
 }
-
+.aligntext {
+  text-align: left;
+  display: inline-block;
+}
 .quote-p4 h1 {
   letter-spacing: 0.185vw;
   font-size: calc(1.4vh + 1.5vw);
