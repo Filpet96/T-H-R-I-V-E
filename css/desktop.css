@@ -974,8 +974,25 @@ a:active {
 -o-transition: all .5s ease-in-out;
 transition: all .5s ease-in-out;
 }
-.section-link.clicked{
-  filter: brightness(0.6);
-}
 
+.fair-d.clicked {
+  background-image: url(../Images/fairtrade-active.png);
+  background-color: white;
+}
+.toxic-d.clicked {
+  background-image: url(../Images/toxic-active.png);
+  background-color: white;
+}
+.quality-d.clicked {
+  background-image: url(../Images/quality-active.png);
+  background-color: white;
+}
+.organic-d.clicked {
+  background-image: url(../Images/organic-active.png);
+  background-color: white;
+}
+.vegan-d.clicked {
+  background-image: url(../Images/vegan-active.png);
+  background-color: white;
+}
 }
