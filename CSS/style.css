@@ -213,7 +213,7 @@
   color: #121212;
   font-size: 5.066666666666666vw;
   font-weight: bold;
-  left: 34.13333333333333vw;
+  left: 18vw;
   line-height: 6.4vw;
   z-index: 5;
  }
@@ -416,7 +416,7 @@
   background-position: center;
   background-size: 80%;
   top: 4.497vh;
-  left: 37.63vh;
+  left: 36.6vh;
  }
 
  .toxic-d {
@@ -425,7 +425,7 @@
   background-position: 50% 63%;
   background-size: 85%;
   top: 15.592203898050975vh;
-  left: 31.03448275862069vh;
+  left: 30vh;
  }
 
  .quality-d {
@@ -434,7 +434,7 @@
   background-position: center;
   background-size: 63%;
   top: 26.986506746626688vh;
-  left: 24.137931034482758vh;
+  left: 23vh;
  }
  .organic-d {
   background-image: url(../Images/Organic.png);
@@ -442,7 +442,7 @@
   background-position: 50% 30%;
   background-size: 86%;
   top: 38.08095952023988vh;
-  left: 17.391304347826086vh;
+  left: 15.7vh;
  }
 
  .vegan-d {
@@ -451,7 +451,7 @@
   background-position: 60% 30%;
   background-size: 70%;
   top: 49.47526236881559vh;
-  left: 10.794602698650674vh;
+  left: 10.3vh;
  }
 
  .fair-d h2,
@@ -460,7 +460,7 @@
  .organic-d h2,
  .vegan-d h2 {
   letter-spacing: 0.3vw;
-  font-size: calc(1.1vh + 1.4vw);
+  font-size: calc(1.2vh + 1.5vw);
  }
 
  .fair-d h2 {
