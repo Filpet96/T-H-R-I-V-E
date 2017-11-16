@@ -23,14 +23,14 @@ $(document).ready(function() {
    },
    {
     title: "Vegan",
-    text: "Like factory farming in the food industry, raising animals for clothing and accessories is often cruel to the animals and harmful to the environment.<br> Veganism is not a crash diet or cleanse. It’s a lifestyle choice that’s all about protecting animals by avoiding animal products. This is one of our core belifes at THRIVE, so all our clothes are 100% Vegan."
+    text: "Like factory farming in the food industry, raising animals for clothing and accessories is often cruel to the animals and harmful to the environment. Veganism is a lifestyle choice that’s all about protecting animals by avoiding animal products. This is one of our core belifes at THRIVE, so all our clothes are 100% Vegan."
    },
   ];
 
   // Get reference to the output area
   var $outputDiv = $(".section-display");
-  var defaulttext = $outputDiv.find(".text").text()
-  var defaultTitle = $outputDiv.find(".title").text();
+  var defaulttext = $outputDiv.find(".text").html()
+  var defaultTitle = $outputDiv.find(".title").html();
 
 
   // Set a click event handler for each of the images
@@ -47,7 +47,7 @@ $(document).ready(function() {
    $(".title", $outputDiv).animate({
     opacity: 0
    }, function() {
-    $(".title", $outputDiv).text(data[$This.index() - 1].title)
+    $(".title", $outputDiv).html(data[$This.index() - 1].title)
      .animate({
       opacity: 1
      });
@@ -55,7 +55,7 @@ $(document).ready(function() {
    $(".text", $outputDiv).animate({
     opacity: 0
    }, function() {
-    $(".text", $outputDiv).text(data[$This.index() - 1].text)
+    $(".text", $outputDiv).html(data[$This.index() - 1].text)
      .animate({
       opacity: 1
      });
@@ -67,7 +67,7 @@ $(document).ready(function() {
     $(".title", $outputDiv).animate({
      opacity: 0
     }, function() {
-     $(".title", $outputDiv).text(defaultTitle)
+     $(".title", $outputDiv).html(defaultTitle)
       .animate({
        opacity: 1
       });
@@ -75,10 +75,11 @@ $(document).ready(function() {
     $(".text", $outputDiv).animate({
      opacity: 0
     }, function() {
-     $(".text", $outputDiv).text(defaulttext)
+     $(".text", $outputDiv).html(defaulttext)
       .animate({
        opacity: 1
       });
+     $($imgs).removeClass('clicked')
     })
    }
   })
@@ -173,6 +174,7 @@ $(document).ready(function() {
       .animate({
        opacity: 1
       });
+     $($imgs).removeClass('clicked')
     })
    }
   })
