@@ -39,6 +39,11 @@ $(document).ready(function() {
    // extract the content from the array of objects that correspond
    // to the index of the image that was clicked.
    $This = $(this)
+
+   $imgs.removeClass("clicked");
+   $This.addClass("clicked");
+
+
    $(".title", $outputDiv).animate({
     opacity: 0
    }, function() {
@@ -129,10 +134,10 @@ $(document).ready(function() {
    // to the index of the image that was clicked.
    $This = $(this)
 
-$imgs.removeClass("clicked") ;
-  $This.addClass("clicked");
+   $imgs.removeClass("clicked");
+   $This.addClass("clicked");
 
-   
+
    $(".title1", $outputDiv).animate({
     opacity: 0
    }, function() {
