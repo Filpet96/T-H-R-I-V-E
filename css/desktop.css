@@ -755,7 +755,7 @@ ul {
   left: 39vw;
   background-color: rgba(48, 56, 61, 0.8);
   width: 46vw;
-  height: 24.5vh;
+  height: 26.5vh;
   border: 1px solid white;
   text-align: center;
 }
@@ -778,13 +778,6 @@ h2.title1 {
   color: #30383D;
   background-color: white;
 }
-
-/*ORIGINAL*/
-/*h2.title1 {
-  font-size: calc(1.2vh + 1.4vw);
-  margin-bottom: 0.8vw;
-  text-align: center;
-}*/
 
 .quote-p4 {
   position: absolute;
