@@ -29,60 +29,35 @@ $(document).ready(function() {
 
   // Get reference to the output area
   var $outputDiv = $(".section-display");
-  var defaulttext = $outputDiv.find(".text").html()
+  var defaultText = $outputDiv.find(".text").html();
   var defaultTitle = $outputDiv.find(".title").html();
 
-
-  // Set a click event handler for each of the images
   $imgs.on("click", function() {
-   // Find the child elements within the output div that need updating and
-   // extract the content from the array of objects that correspond
-   // to the index of the image that was clicked.
-   $This = $(this)
-
-   $imgs.removeClass("clicked");
-   $This.addClass("clicked");
-
-
-   $(".title", $outputDiv).animate({
-    opacity: 0
-   }, function() {
-    $(".title", $outputDiv).html(data[$This.index() - 1].title)
-     .animate({
-      opacity: 1
-     });
-   });
-   $(".text", $outputDiv).animate({
-    opacity: 0
-   }, function() {
-    $(".text", $outputDiv).html(data[$This.index() - 1].text)
-     .animate({
-      opacity: 1
-     });
-   })
+   var $this = $(this);
+   if (!$this.hasClass('clicked')) {
+    $imgs.removeClass('clicked');
+    setItem($this.addClass('clicked').index());
+   }
   });
 
   $(document).on("click", function(e) {
    if ($(e.target).closest('.section-display').length != 1 && $(e.target).closest(".section-link").length != 1) {
-    $(".title", $outputDiv).animate({
-     opacity: 0
-    }, function() {
-     $(".title", $outputDiv).html(defaultTitle)
-      .animate({
-       opacity: 1
-      });
-    });
-    $(".text", $outputDiv).animate({
-     opacity: 0
-    }, function() {
-     $(".text", $outputDiv).html(defaulttext)
-      .animate({
-       opacity: 1
-      });
-     $($imgs).removeClass('clicked')
-    })
+    $imgs.removeClass('clicked');
+    setItem();
    }
   })
+
+  function setItem(index) {
+   var title = index ? data[index - 1].title : defaultTitle;
+   var text = index ? data[index - 1].text : defaultText;
+
+   $outputDiv.find(".title").fadeOut(function() {
+    $(this).html(title).fadeIn();
+   });
+   $outputDiv.find(".text").fadeOut(function() {
+    $(this).html(text).fadeIn();
+   });
+  }
  }
  // DESKTOP
  if ($(window).width() > 767) {
@@ -124,59 +99,34 @@ $(document).ready(function() {
 
   // Get reference to the output area
   var $outputDiv = $(".section-display");
-  var defaulttext = $outputDiv.find(".text1").html()
+  var defaultText = $outputDiv.find(".text1").html();
   var defaultTitle = $outputDiv.find(".title1").html();
 
-
-  // Set a click event handler for each of the images
   $imgs.on("click", function() {
-   // Find the child elements within the output div that need updating and
-   // extract the content from the array of objects that correspond
-   // to the index of the image that was clicked.
-   $This = $(this)
-
-   $imgs.removeClass("clicked");
-   $This.addClass("clicked");
-
-
-   $(".title1", $outputDiv).animate({
-    opacity: 0
-   }, function() {
-    $(".title1", $outputDiv).html(data[$This.index() - 1].title)
-     .animate({
-      opacity: 1
-     });
-   });
-   $(".text1", $outputDiv).animate({
-    opacity: 0
-   }, function() {
-    $(".text1", $outputDiv).html(data[$This.index() - 1].text)
-     .animate({
-      opacity: 1
-     });
-   })
+   var $this = $(this);
+   if (!$this.hasClass('clicked')) {
+    $imgs.removeClass('clicked');
+    setItem($this.addClass('clicked').index());
+   }
   });
 
   $(document).on("click", function(e) {
    if ($(e.target).closest('.section-display').length != 1 && $(e.target).closest(".section-link").length != 1) {
-    $(".title1", $outputDiv).animate({
-     opacity: 0
-    }, function() {
-     $(".title1", $outputDiv).html(defaultTitle)
-      .animate({
-       opacity: 1
-      });
-    });
-    $(".text1", $outputDiv).animate({
-     opacity: 0
-    }, function() {
-     $(".text1", $outputDiv).html(defaulttext)
-      .animate({
-       opacity: 1
-      });
-     $($imgs).removeClass('clicked')
-    })
+    $imgs.removeClass('clicked');
+    setItem();
    }
   })
+
+  function setItem(index) {
+   var title = index ? data[index - 1].title : defaultTitle;
+   var text = index ? data[index - 1].text : defaultText;
+
+   $outputDiv.find(".title1").fadeOut(function() {
+    $(this).html(title).fadeIn();
+   });
+   $outputDiv.find(".text1").fadeOut(function() {
+    $(this).html(text).fadeIn();
+   });
+  }
  }
 });
