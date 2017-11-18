@@ -7,6 +7,7 @@
  body {
   background-color: #F4EAE0;
   font-family: 'Muli', sans-serif;
+  font-weight: normal;
  }
  .flickering {
   -webkit-backface-visibility: hidden;
@@ -23,16 +24,18 @@
   left: 11.2vw;
   top: 16.8vw;
   margin: 0;
+  font-weight: 600;
  }
  .change1 {
   position: absolute;
-  letter-spacing: 0.5333333333333333vw;
+  letter-spacing: 0.4;
   z-index: 10;
   color: #E6E7E4;
   font-size: 12.8vw;
   margin: 0;
   left: 15.2vw;
   top: 29.866666666666667vw;
+  font-weight: 600;
  }
  #counscious h2 {
   position: absolute;
@@ -145,6 +148,7 @@
   height: 16.8vw;
   left: 16vw;
   z-index: 5;
+  font-weight: 600;
  }
  .planetiphone {
   position: absolute;
@@ -199,7 +203,7 @@
   position: absolute;
   color: #E6E7E4;
   margin: 0;
-  font-weight: bold;
+  font-weight: 600;
   text-align: left;
   font-size: 6.666666666666667vw;
   left: 16.533333333333335vw;
@@ -210,12 +214,13 @@
   top: 166.93333333333334vw;
   margin: 0;
   position: absolute;
-  color: #121212;
+  color: #3D2D38;
   font-size: 5.066666666666666vw;
-  font-weight: bold;
+  font-weight: 600;
   left: 18vw;
   line-height: 6.4vw;
   z-index: 5;
+  font-weight: 900;
  }
  .p03brown {
   position: absolute;
@@ -258,7 +263,7 @@
   font-size: 5.866666666666666vw;
   left: 39.2vw;
   top: 20.8vw;
-  font-weight: bold;
+  font-weight: 600;
   color: #FFFFFF;
   text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
   margin: 0;
@@ -268,7 +273,7 @@
   font-size: 5.866666666666666vw;
   left: 44.8vw;
   top: 30.933333333333334vw;
-  font-weight: bold;
+  font-weight: 600;
   color: #FFFFFF;
   text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
   margin: 0;
@@ -278,7 +283,7 @@
   font-size: 5.866666666666666vw;
   left: 50.666666666666664vw;
   top: 41.06666666666667vw;
-  font-weight: bold;
+  font-weight: 600;
   color: #FFFFFF;
   text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
   margin: 0;
@@ -369,7 +374,7 @@
   top: 132.26666666666668vw;
   width: 100%;
   height: 23.487256371814095vh;
-  background-color: rgba(48, 56, 61, 0.8);
+  background-color: rgba(61, 45, 56, 0.5);
   z-index: 1;
  }
  .section-link {
@@ -461,6 +466,7 @@
  .vegan-d h2 {
   letter-spacing: 0.3vw;
   font-size: calc(1.2vh + 1.5vw);
+  font-weight: 600;
  }
 
  .fair-d h2 {
@@ -504,6 +510,12 @@
   line-height: normal;
   text-align: left;
   margin: 0;
+  font-weight: 300;
+ }
+ .tap {
+  display: inline-block;
+  margin-top: 1vh;
+  font-weight: 900;
  }
  .rectangletop {
   position: absolute;
@@ -601,9 +613,9 @@
   position: absolute;
   background-color: #5A6D77;
   left: 13.866666666666667vw;
-  top: 6.933333333333334vw;
+  top: 0;
   width: 86.13333333333334vw;
-  height: 164vw;
+  height: 100vh;
   padding: 0;
   margin: 0;
   z-index: -1;
@@ -669,5 +681,11 @@
   position: absolute;
   left: 76.26666666666667vw;
   top: 115.73333333333333vw;
+ }
+ .jacketsvg {
+  position: absolute;
+  left: 287px;
+  top: 562px;
+  z-index: 999;
  }
 }
