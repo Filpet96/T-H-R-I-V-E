@@ -120,18 +120,19 @@
 
  .heading-wearethe h1 {
   font-size: calc(3.5vh + 3.9vw);
-  font-weight: bold;
+  font-weight: 900;
   margin-top: 0;
  }
 
  .heading-change h1 {
   font-size: calc(4.8vh + 4.9vw);
   margin-top: 0.3vh;
+  font-weight: 800;
  }
 
  .conscious-desktop {
   position: relative;
-  background: rgba(61, 45, 57, 0.73);
+  background: rgba(61, 45, 57, 0.4);
   width: 20.7vw;
   top: 15vh;
   border: 2px white solid;
@@ -159,6 +160,7 @@
   margin-bottom: 5%;
   letter-spacing: calc(0.31vh + 0.31vw);
   white-space: nowrap;
+  font-weight: normal;
  }
 
  .no-letter-spacing {
