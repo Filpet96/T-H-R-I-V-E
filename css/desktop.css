@@ -136,8 +136,9 @@
   width: 20.7vw;
   top: 15vh;
   border: 2px white solid;
-  padding-left: 0.5vw;
-  padding-right: 0.5vw;
+  /*padding-left: 0.5vw;
+  padding-right: 0.5vw;*/
+  padding: 0.5%;
   margin: auto;
   display: flex;
   flex-direction: column;
