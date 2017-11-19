@@ -813,10 +813,10 @@
   left: 39vw;
   background-color: rgba(48, 56, 61, 0.8);
   width: calc(23vh + 28vw);
-  height: calc(3vh + 10vw);
+  height: calc(5vh + 10vw);
   border: 1px solid white;
   text-align: center;
-  padding: 3vh;
+  padding: calc(0.7vh + 1.2vw);
   box-sizing: border-box;
  }
 
