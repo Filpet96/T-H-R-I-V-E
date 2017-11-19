@@ -811,7 +811,7 @@
   position: absolute;
   top: 71vh;
   left: 39vw;
-  background-color: rgb(48, 56, 61, 0.8);
+  background-color: rgba(48, 56, 61, 0.8);
   width: calc(23vh + 28vw);
   height: calc(3vh + 10vw);
   border: 1px solid white;
