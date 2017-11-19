@@ -112,7 +112,7 @@ $(document).ready(function() {
   });
 
   $(document).on("click", function(e) {
-   if ($(e.target).closest('.section-display').length != 1 && $(e.target).closest(".section-link").length != 1) {
+   if ($(e.target).closest('.section-display').length != 1 && $(e.target).closest(".section-link").length != 1 && $imgs.hasClass('clicked')) {
     $imgs.removeClass('clicked');
     setItem();
    }
