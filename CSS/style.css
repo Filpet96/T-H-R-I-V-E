@@ -55,11 +55,12 @@
   margin: 0;
   line-height: normal;
   font-size: 1.8666666666666667vw;
-  letter-spacing: 0.80vw;
+  letter-spacing: 0.92vw;
   color: #FAFAFB;
   z-index: 1;
-  top: 8.533333333333333vw;
-  left: 4vw;
+  top: 5.2vh;
+  left: 4.2vw;
+  font-weight: 600;
  }
  #counscious {
   border: 1px solid #F0F0F0;
