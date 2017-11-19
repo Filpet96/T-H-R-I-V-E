@@ -809,32 +809,37 @@
 
  .info-p4 {
   position: absolute;
-  top: 69vh;
+  top: 71vh;
   left: 39vw;
-  background-color: rgba(48, 56, 61, 0.8);
-  width: 46vw;
-  height: 28vh;
+  background-color: rgb(48, 56, 61, 0.8);
+  width: calc(23vh + 28vw);
+  height: calc(3vh + 10vw);
   border: 1px solid white;
   text-align: center;
+  padding: 3vh;
+  box-sizing: border-box;
  }
 
  .info-p4 h2 {
   letter-spacing: 0.14vw;
-  font-size: calc(0.6vh + 0.8vw);
-  color: white;
+  font-size: calc(0.6vh + 0.6vw);
+  color: #FFFFFF;
   font-weight: 300;
   margin: 0;
-  padding-top: 1vh;
  }
 
  h2.title1 {
   font-size: calc(1.2vh + 1.4vw);
   margin: 0;
-  padding-top: 0.5vh;
-  padding-bottom: 1vh;
   text-align: center;
-  color: #30383D;
-  background-color: white;
+  color: #242A2E;
+  position: absolute;
+  top: -5vh;
+  z-index: 9999;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  font-weight: 700;
  }
 
  .quote-p4 {
@@ -1063,5 +1068,17 @@
  .vegan-d.clicked {
   background-image: url(../Images/vegan-active.png);
   background-color: white;
+ }
+ .whiteblock {
+  position: absolute;
+  background-color: #FFFFFF;
+  width: calc(23vh + 28vw);
+  height: calc(2.2vh + 2.2vw);
+  top: 66vh;
+  left: 39vw;
+  z-index: 999;
+ }
+ .tap1 {
+  font-weight: 800;
  }
 }

@@ -90,11 +90,11 @@ $(document).ready(function() {
    },
    {
     title: "Organic",
-    text: "Organic clothing is made from organic cotton, jute or ramie that has been cultivated according to the guidelines of organic farming without genetically modified seeds, pesticides, or other chemical yielding aids. This positively affects the environment, agriculture and the health of planters worldwide."
+    text: "Organic clothing is made from organic cotton, jute or ramie that has been cultivated according to the guidelines of organic farming without genetically modified seeds, pesticides, or other chemical yielding aids.<br><br> This positively affects the environment, agriculture and the health of planters worldwide."
    },
    {
     title: "Vegan",
-    text: "Like factory farming in the food industry, raising animals for clothing and accessories is often cruel to the animals and harmful to the environment.<br> Veganism is not a crash diet or cleanse. It’s a lifestyle choice that’s all about protecting animals by avoiding animal products. This is one of our core belifes at THRIVE, so all our clothes are 100% Vegan."
+    text: "Like factory farming in the food industry, raising animals for clothing and accessories is often cruel to the animals and harmful to the environment.<br><br> Veganism is not a crash diet or cleanse. It’s a lifestyle choice that’s all about protecting animals by avoiding animal products. This is one of our core belifes at THRIVE, so all our clothes are 100% Vegan."
    },
   ];
 
