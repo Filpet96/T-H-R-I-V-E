@@ -847,6 +847,7 @@
  .aligntext {
   text-align: left;
   display: inline-block;
+  width: 80%;
  }
  .quote-p4 h1 {
   letter-spacing: 0.185vw;
