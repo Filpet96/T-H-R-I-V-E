@@ -551,6 +551,10 @@
   text-align: center;
   top: 17.9vh;
   left: 58vw;
+ /*-moz-animation-delay: .4s;
+ -webkit-animation-delay: .4s;
+ -o-animation-delay: .4s;
+  animation-delay: .4s;*/
  }
 
  .planet-friendly-materials {

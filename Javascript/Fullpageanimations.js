@@ -8,7 +8,8 @@
     $isAnimatedThird = $('.third .is-animated'),
     $isAnimatedThirdSingle = $('.third .is-animated__single'),
     $isAnimatedFourth = $('.fourth .is-animated'),
-    $isAnimatedFourthSingle = $('.fourth .is-animated__single');
+    $isAnimatedFourthSingle = $('.fourth .is-animated__single'),
+    $isAnimatedBoxPage3d = $('.opacity-box .animated .slideInRight');
 
   // initialize fullPage
   $('#wrapper').fullpage({
@@ -36,6 +37,10 @@
         $isAnimatedSecondSingle.addClass('animated rollIn').css('animation-delay', '1.7s');
       }
 
+      if (index == 2 && nextIndex == 3) {
+        $isAnimatedBoxPage3d.addClass('animated fadeInRight');
+        $isAnimatedBoxPage3d.css('animation-delay', '.4s');
+      }
 
 
 
