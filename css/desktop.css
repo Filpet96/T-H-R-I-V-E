@@ -340,7 +340,7 @@
  }
 
  .info-p2 h1 {
-  font-size: calc(0.95vh + 1vw);
+  font-size: calc(1vh + 1.05vw);
   letter-spacing: 0.2vw;
   font-weight: bolder;
   letter-spacing: 0.14vw;
@@ -348,10 +348,8 @@
  }
 
  .info-p2 h2 {
-  font-size: 18px;
-  font-size: calc(1.25vh + 1.25vw);
+  font-size: calc(.8vh + .9vw);
   letter-spacing: 0.14vw;
-  font-size: calc(0.7vh + 0.75vw);
   font-weight: 300;
   margin: 0;
   margin-top: 2%;
