@@ -1,0 +1,30 @@
+<svg width="44" height="42" viewBox="0 0 44 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>toxic</title>
+ <desc>Created using Figma</desc>
+ <g id="Canvas" transform="translate(-431 -604)">
+  <g id="toxic">
+   <g id="Layer_1">
+    <g id="Oval">
+     <use xlink:href="#path0_fill" transform="translate(448.91 619.117)" fill="#FFFFFF" />
+    </g>
+   </g>
+   <g id="Layer_2">
+    <g id="Shape">
+     <use xlink:href="#path1_fill" transform="translate(456.318 604)" fill="#FFFFFF" />
+    </g>
+    <g id="Shape">
+     <use xlink:href="#path2_fill" transform="translate(442.083 628.84)" fill="#FFFFFF" />
+    </g>
+    <g id="Shape">
+     <use xlink:href="#path3_fill" transform="translate(431.185 604.076)" fill="#FFFFFF" />
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <path id="path0_fill" d="M 4.12149 8.24298C 6.39773 8.24298 8.24298 6.39773 8.24298 4.12149C 8.24298 1.84525 6.39773 0 4.12149 0C 1.84525 0 0 1.84525 0 4.12149C 0 6.39773 1.84525 8.24298 4.12149 8.24298Z" />
+  <path id="path1_fill" d="M 0 13.3322L 7.67042 0C 7.67042 0 18.8072 6.37443 18.5521 18.9947C 15.4703 19.0264 3.27412 19.0264 3.27412 19.0264C 3.27412 19.0264 3.5884 15.6285 0 13.3322Z" />
+  <path id="path2_fill" d="M 14.2445 0.0410051L 21.7634 13.4609C 21.7634 13.4609 10.6709 19.9154 0 13.2987C 1.53261 10.6035 7.70924 0 7.70924 0C 7.70924 0 10.4583 2.00366 14.2445 0.0410051Z" />
+  <path id="path3_fill" d="M 15.2875 18.9928L 0.000235307 19.086C 0.000235307 19.086 -0.195731 6.175 10.7229 0C 12.3128 2.6616 18.4876 13.2596 18.4876 13.2596C 18.4876 13.2596 15.4298 14.7041 15.2875 18.9928Z" />
+ </defs>
+</svg>

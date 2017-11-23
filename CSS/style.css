@@ -407,7 +407,7 @@
  }
  .small-solid-circle-p4 {
   position: absolute;
-  background-color: #30383D;
+  background-color: #3D2D38;
   color: white;
   z-index: 10;
   width: calc(5.1vh + 4vw);
@@ -417,42 +417,42 @@
  }
 
  .fair-d {
-  background-image: url(../Images/fairtrade.png);
+  background-image: url(../SVG/Page04/Fairtrade-lila.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
-  top: 4.497vh;
-  left: 36.6vh;
+  top: 4.9vh;
+  left: 37.2vh;
  }
 
  .toxic-d {
-  background-image: url(../Images/toxic.png);
+  background-image: url(../SVG/PAGE04/Toxicfree-lila.svg);
   background-repeat: no-repeat;
   background-position: 50% 63%;
   background-size: 85%;
-  top: 15.592203898050975vh;
-  left: 30vh;
+  top: 16vh;
+  left: 30.5vh;
  }
 
  .quality-d {
-  background-image: url(../Images/quality.png);
+  background-image: url(../SVG/PAGE04/Quality-lila.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 63%;
-  top: 26.986506746626688vh;
-  left: 23vh;
+  top: 27vh;
+  left: 24vh;
  }
  .organic-d {
-  background-image: url(../Images/Organic.png);
+  background-image: url(../SVG/PAGE04/Organic-lila.svg);
   background-repeat: no-repeat;
   background-position: 50% 30%;
   background-size: 86%;
-  top: 38.08095952023988vh;
-  left: 15.7vh;
+  top: 38.2vh;
+  left: 17.4vh;
  }
 
  .vegan-d {
-  background-image: url(../Images/vegan.png);
+  background-image: url(../SVG/PAGE04/Vegan-lila.svg);
   background-repeat: no-repeat;
   background-position: 60% 30%;
   background-size: 70%;
@@ -473,7 +473,7 @@
  .fair-d h2 {
   position: relative;
   top: .8vh;
-  left: calc(-9.2vh + -10.5vw);
+  left: calc(-9.5vh + -10.7vw);
  }
 
  .toxic-d h2 {
@@ -491,7 +491,7 @@
  .organic-d h2 {
   position: relative;
   top: .8vh;
-  left: calc(-7vh + -8.4vw);
+  left: calc(-7.4vh + -8.7vw);
  }
 
  .vegan-d h2 {
