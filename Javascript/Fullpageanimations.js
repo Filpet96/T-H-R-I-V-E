@@ -9,7 +9,7 @@
     $isAnimatedThirdSingle = $('.third .is-animated__single'),
     $isAnimatedFourth = $('.fourth .is-animated'),
     $isAnimatedFourthSingle = $('.fourth .is-animated__single'),
-    $isAnimatedBoxPage3d = $('.opacity-box .animated .slideInRight');
+    $isAnimatedBoxPage3d = $('.opacity-box .animated .fadeInRight');
 
   // initialize fullPage
   $('#wrapper').fullpage({
