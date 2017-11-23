@@ -216,7 +216,7 @@
   margin: 0;
   position: absolute;
   color: #3D2D38;
-  font-size: 5.066666666666666vw;
+  font-size: 4.5vw;
   font-weight: 600;
   left: 18vw;
   line-height: 6.4vw;
@@ -514,9 +514,12 @@
   font-weight: 300;
  }
  .tap {
-  display: inline-block;
-  margin-top: 1vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: calc(2vh + 2vw);
   font-weight: 900;
+  margin-top: 3%;
  }
  .rectangletop {
   position: absolute;
