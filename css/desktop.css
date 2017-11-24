@@ -132,12 +132,9 @@
 
  .conscious-desktop {
   position: relative;
-  /*background: rgba(61, 45, 57, 0.4);*/
   width: 20.7vw;
   top: 15vh;
   border: 2px white solid;
-  /*padding-left: 0.5vw;
-  padding-right: 0.5vw;*/
   padding: 0.5%;
   margin: auto;
   display: flex;
@@ -1091,7 +1088,7 @@
 
  #moveDown {
   top: 65vh;
-  left: 49.6vw;
+  left: 49vw;
   position: absolute;
   z-index: 999;
   -webkit-transform: translate(-50%, -50%);
@@ -1101,7 +1098,7 @@
  #moveDown h2 {
   font-size: calc(0.55vh + 0.51vw);
   top: calc(6vh + 2vw);
-  left: .8vw;
+  left: .9vw;
   position: absolute;
   font-weight: normal;
   letter-spacing: calc(0.175vh + 0.175vw);
