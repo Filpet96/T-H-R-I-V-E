@@ -340,16 +340,18 @@
 <script>
 // IMAGE SLIDER, connected with symbols for CAROUSEL
 $.fn.slider = function() {
+ // VARIABLES
  var $this = this;
  var $controls = $this.nextAll('.controls').first();
  var index;
-
+ // FIND BASED ON ORDER OF li
  $this.find('li:gt(0)').hide();
  setInterval(function() {
    $this.find('li:first-child').fadeOut(1500)
     .next('li').fadeIn(1500)
     .end().appendTo($this);
    var index = $this.find('li:first-child').data('index');
+   // ADD AND REMOVE CLASS ACTIVE
    $controls.find('li.active').removeClass('active');
    $controls.find('li').eq(index).addClass('active');
   },
@@ -361,16 +363,19 @@ $('#slider1').slider();
 </script>
 <script>
 $.fn.slider = function() {
+ // VARIABLES
  var $this = this;
  var $controls = $this.nextAll('.controls').first();
  var index;
 
+ // FIND BASED ON ORDER OF li
  $this.find('li:gt(0)').hide();
  setInterval(function() {
    $this.find('li:first-child').fadeOut(1500)
     .next('li').fadeIn(1500)
     .end().appendTo($this);
    var index = $this.find('li:first-child').data('index');
+   // ADD AND REMOVE CLASS ACTIVE
    $controls.find('li.active').removeClass('active');
    $controls.find('li').eq(index).addClass('active');
   },
