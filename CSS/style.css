@@ -140,7 +140,7 @@
  .imagetext h1 {
   position: absolute;
   margin: 0;
-  top: 148vw;
+  top: 147.5vw;
   color: #121212;
   line-height: 5.6vw;
   font-size: 4.533333333333333vw;
@@ -212,13 +212,13 @@
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
  }
  .cycletext h1 {
-  top: 166.93333333333334vw;
+  top: 171vw;
   margin: 0;
   position: absolute;
   color: #3D2D38;
   font-size: 4.5vw;
   font-weight: 600;
-  left: 18vw;
+  left: 22vw;
   line-height: 6.4vw;
   z-index: 5;
   font-weight: 900;

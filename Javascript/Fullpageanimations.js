@@ -17,16 +17,7 @@
     navigation: false,
     onLeave: function(index, nextIndex, direction) {
 
-      /**
-       * use the following condition:
-       *
-       *   if( index == 1 && direction == 'down' ) {
-       *
-       * if you haven't enabled the dot navigation
-       * or you aren't interested in the animations that occur
-       * when you jump (using the dot navigation)
-       * from the first section to another sections
-       */
+     
 
       // first animation
       if (index == 1 && nextIndex == 2) {
