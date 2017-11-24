@@ -192,6 +192,7 @@
   text-transform: uppercase;
   filter: blur(0px);
  }
+
  #counscious h2 {
   font-family: 'Muli', sans-serif;
   font-style: bold;
@@ -202,6 +203,7 @@
   color: #FAFAFB;
   z-index: 10;
  }
+
  #counscious {
   border: 0.4vh solid white;
   display: block;
@@ -212,6 +214,7 @@
   position: relative;
   top: 10vh;
  }
+
  #section4 {
   width: 100%;
   height: 100vh;
@@ -409,7 +412,6 @@
   transition: 0.5s;
   margin: 0;
  }
-
 
  .controls>li.active {
   opacity: 1;
@@ -849,11 +851,13 @@
   color: white;
   z-index: 10;
  }
+
  .aligntext {
   text-align: left;
   display: inline-block;
   width: 80%;
  }
+
  .quote-p4 h1 {
   letter-spacing: 0.185vw;
   font-size: calc(1.4vh + 1.5vw);
@@ -1053,22 +1057,27 @@
   background-image: url(../Images/fairtrade-active.png);
   background-color: white;
  }
+
  .toxic-d.clicked {
   background-image: url(../Images/toxic-active.png);
   background-color: white;
  }
+
  .quality-d.clicked {
   background-image: url(../Images/quality-active.png);
   background-color: white;
  }
+
  .organic-d.clicked {
   background-image: url(../Images/organic-active.png);
   background-color: white;
  }
+
  .vegan-d.clicked {
   background-image: url(../Images/vegan-active.png);
   background-color: white;
  }
+
  .whiteblock {
   position: absolute;
   background-color: #FFFFFF;
@@ -1078,6 +1087,7 @@
   left: 39vw;
   z-index: 999;
  }
+
  .tap1 {
   font-weight: 800;
   display: flex;
@@ -1170,6 +1180,7 @@
    opacity: 0;
   }
  }
+ 
  @keyframes moveDownBtn {
   0% {
    opacity: 0;
